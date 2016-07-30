@@ -37,3 +37,11 @@ If ionic start make some error,you can install the cnpm in local directory:
 ###Building for Android  
 
     $ionic build android
+
+###Building a platform for Ios 
+
+    $ionic platform add ios
+   
+###Building for Ios  
+
+    $ionic build ios
