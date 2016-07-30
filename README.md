@@ -1,7 +1,7 @@
 # 悦读，简洁的图书阅读应用。（Build by Ionic2）
  
 ##System information  
-    Cordova CLI: Not installed  
+    Cordova CLI: 6.3.0 
     Ionic Framework Version: 2.0.0-beta.35  
     Ionic CLI Version: 2.0.0-beta.35  
     Node Version: v4.4.4  
