@@ -15,12 +15,15 @@
  To create your project  into the local directory:  
  
     $ ionic start happyreading --v2
-     
-     
+    
  To run your app, cd into the directory that was created and then run the ionic serve command:  
  
     $ cd happyreading  
     $ ionic serve  
+    
+###Building to a Device  
+
+    $npm install -g cordova --registry https://registry.npm.taobao.org
  
 ###Building a platform for android  
 
