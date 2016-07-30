@@ -9,8 +9,17 @@
     
 ##Installation
 ###Installing Ionic
+
     $ npm install -g ionic@beta  
+    
+    
+To create your project  into the local directory:  
+
+    $ ionic start happyreading --v2
+    
+    
 To run your app, cd into the directory that was created and then run the ionic serve command:  
 
     $ cd happyreading  
     $ ionic serve  
+
