@@ -7,6 +7,10 @@
     Node Version: v4.4.4  
      
 ##Installation
+###Building to a Device  
+
+    $npm install -g cordova --registry https://registry.npm.taobao.org
+    
 ###Installing Ionic
  
     $ npm install -g ionic@beta  
@@ -16,14 +20,15 @@
  
     $ ionic start happyreading --v2
     
+If ionic start make some error,you can install the cnpm in local directory:
+
+    $cnpm install;
+    
  To run your app, cd into the directory that was created and then run the ionic serve command:  
  
     $ cd happyreading  
     $ ionic serve  
-    
-###Building to a Device  
 
-    $npm install -g cordova --registry https://registry.npm.taobao.org
  
 ###Building a platform for android  
 
