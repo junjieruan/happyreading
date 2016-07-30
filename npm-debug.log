@@ -1,0 +1,1835 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Node.js\\node.exe',
+1 verbose cli   'D:\\Node.js\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose readDependencies loading dependencies from D:\ionic\happyreading\happyreading\package.json
+5 warn package.json @ No description
+6 warn package.json @ No repository field.
+7 warn package.json @ No license field.
+8 verbose install where, deps [ 'D:\\ionic\\happyreading\\happyreading',
+8 verbose install   [ '@angular/common',
+8 verbose install     '@angular/compiler',
+8 verbose install     '@angular/core',
+8 verbose install     '@angular/platform-browser',
+8 verbose install     '@angular/platform-browser-dynamic',
+8 verbose install     '@angular/http',
+8 verbose install     'es6-shim',
+8 verbose install     'ionic-angular',
+8 verbose install     'ionic-native',
+8 verbose install     'ionicons',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'zone.js',
+8 verbose install     'del',
+8 verbose install     'gulp',
+8 verbose install     'gulp-watch',
+8 verbose install     'ionic-gulp-browserify-typescript',
+8 verbose install     'ionic-gulp-fonts-copy',
+8 verbose install     'ionic-gulp-html-copy',
+8 verbose install     'ionic-gulp-sass-build',
+8 verbose install     'ionic-gulp-scripts-copy',
+8 verbose install     'ionic-gulp-tslint',
+8 verbose install     'tslint-ionic-rules',
+8 verbose install     'run-sequence' ] ]
+9 verbose install where, peers [ 'D:\\ionic\\happyreading\\happyreading', [] ]
+10 verbose installManyTop reading for lifecycle D:\ionic\happyreading\happyreading\package.json
+11 info preinstall @
+12 verbose readDependencies loading dependencies from D:\ionic\happyreading\happyreading\package.json
+13 silly cache add args [ '@angular/platform-browser@2.0.0-rc.3', null ]
+14 verbose cache add spec @angular/platform-browser@2.0.0-rc.3
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: '@angular/platform-browser@2.0.0-rc.3',
+15 silly cache add   scope: '@angular',
+15 silly cache add   name: '@angular/platform-browser',
+15 silly cache add   rawSpec: '2.0.0-rc.3',
+15 silly cache add   spec: '2.0.0-rc.3',
+15 silly cache add   type: 'version' }
+16 silly addNamed @angular/platform-browser@2.0.0-rc.3
+17 verbose addNamed "2.0.0-rc.3" is a plain semver version for @angular/platform-browser
+18 silly mapToRegistry name @angular/platform-browser
+19 silly mapToRegistry scope (from package name) @angular
+20 verbose mapToRegistry no registry URL found in name for scope @angular
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://registry.cnpmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: '@angular/platform-browser',
+23 silly mapToRegistry   scope: '@angular',
+23 silly mapToRegistry   name: '@angular/platform-browser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fplatform-browser
+25 verbose addNameVersion registry:http://registry.cnpmjs.org/@angular%2fplatform-browser not in flight; fetching
+26 silly cache add args [ '@angular/platform-browser-dynamic@2.0.0-rc.3', null ]
+27 verbose cache add spec @angular/platform-browser-dynamic@2.0.0-rc.3
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: '@angular/platform-browser-dynamic@2.0.0-rc.3',
+28 silly cache add   scope: '@angular',
+28 silly cache add   name: '@angular/platform-browser-dynamic',
+28 silly cache add   rawSpec: '2.0.0-rc.3',
+28 silly cache add   spec: '2.0.0-rc.3',
+28 silly cache add   type: 'version' }
+29 silly addNamed @angular/platform-browser-dynamic@2.0.0-rc.3
+30 verbose addNamed "2.0.0-rc.3" is a plain semver version for @angular/platform-browser-dynamic
+31 silly mapToRegistry name @angular/platform-browser-dynamic
+32 silly mapToRegistry scope (from package name) @angular
+33 verbose mapToRegistry no registry URL found in name for scope @angular
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry http://registry.cnpmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+36 silly mapToRegistry   scope: '@angular',
+36 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fplatform-browser-dynamic
+38 verbose addNameVersion registry:http://registry.cnpmjs.org/@angular%2fplatform-browser-dynamic not in flight; fetching
+39 silly cache add args [ '@angular/http@2.0.0-rc.3', null ]
+40 verbose cache add spec @angular/http@2.0.0-rc.3
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: '@angular/http@2.0.0-rc.3',
+41 silly cache add   scope: '@angular',
+41 silly cache add   name: '@angular/http',
+41 silly cache add   rawSpec: '2.0.0-rc.3',
+41 silly cache add   spec: '2.0.0-rc.3',
+41 silly cache add   type: 'version' }
+42 silly addNamed @angular/http@2.0.0-rc.3
+43 verbose addNamed "2.0.0-rc.3" is a plain semver version for @angular/http
+44 silly mapToRegistry name @angular/http
+45 silly mapToRegistry scope (from package name) @angular
+46 verbose mapToRegistry no registry URL found in name for scope @angular
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry http://registry.cnpmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: '@angular/http',
+49 silly mapToRegistry   scope: '@angular',
+49 silly mapToRegistry   name: '@angular/http',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fhttp
+51 verbose addNameVersion registry:http://registry.cnpmjs.org/@angular%2fhttp not in flight; fetching
+52 silly cache add args [ 'es6-shim@^0.35.0', null ]
+53 verbose cache add spec es6-shim@^0.35.0
+54 silly cache add parsed spec Result {
+54 silly cache add   raw: 'es6-shim@^0.35.0',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'es6-shim',
+54 silly cache add   rawSpec: '^0.35.0',
+54 silly cache add   spec: '>=0.35.0 <0.36.0',
+54 silly cache add   type: 'range' }
+55 silly addNamed es6-shim@>=0.35.0 <0.36.0
+56 verbose addNamed ">=0.35.0 <0.36.0" is a valid semver range for es6-shim
+57 silly addNameRange { name: 'es6-shim', range: '>=0.35.0 <0.36.0', hasData: false }
+58 silly mapToRegistry name es6-shim
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry http://registry.cnpmjs.org/
+61 silly mapToRegistry data Result {
+61 silly mapToRegistry   raw: 'es6-shim',
+61 silly mapToRegistry   scope: null,
+61 silly mapToRegistry   name: 'es6-shim',
+61 silly mapToRegistry   rawSpec: '',
+61 silly mapToRegistry   spec: 'latest',
+61 silly mapToRegistry   type: 'tag' }
+62 silly mapToRegistry uri http://registry.cnpmjs.org/es6-shim
+63 verbose addNameRange registry:http://registry.cnpmjs.org/es6-shim not in flight; fetching
+64 silly cache add args [ 'ionic-angular@2.0.0-beta.10', null ]
+65 verbose cache add spec ionic-angular@2.0.0-beta.10
+66 silly cache add parsed spec Result {
+66 silly cache add   raw: 'ionic-angular@2.0.0-beta.10',
+66 silly cache add   scope: null,
+66 silly cache add   name: 'ionic-angular',
+66 silly cache add   rawSpec: '2.0.0-beta.10',
+66 silly cache add   spec: '2.0.0-beta.10',
+66 silly cache add   type: 'version' }
+67 silly addNamed ionic-angular@2.0.0-beta.10
+68 verbose addNamed "2.0.0-beta.10" is a plain semver version for ionic-angular
+69 silly mapToRegistry name ionic-angular
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry http://registry.cnpmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'ionic-angular',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   name: 'ionic-angular',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-angular
+74 verbose addNameVersion registry:http://registry.cnpmjs.org/ionic-angular not in flight; fetching
+75 silly cache add args [ 'ionic-native@1.3.2', null ]
+76 verbose cache add spec ionic-native@1.3.2
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: 'ionic-native@1.3.2',
+77 silly cache add   scope: null,
+77 silly cache add   name: 'ionic-native',
+77 silly cache add   rawSpec: '1.3.2',
+77 silly cache add   spec: '1.3.2',
+77 silly cache add   type: 'version' }
+78 silly addNamed ionic-native@1.3.2
+79 verbose addNamed "1.3.2" is a plain semver version for ionic-native
+80 silly mapToRegistry name ionic-native
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry http://registry.cnpmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'ionic-native',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   name: 'ionic-native',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-native
+85 verbose addNameVersion registry:http://registry.cnpmjs.org/ionic-native not in flight; fetching
+86 silly cache add args [ 'ionicons@3.0.0', null ]
+87 verbose cache add spec ionicons@3.0.0
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'ionicons@3.0.0',
+88 silly cache add   scope: null,
+88 silly cache add   name: 'ionicons',
+88 silly cache add   rawSpec: '3.0.0',
+88 silly cache add   spec: '3.0.0',
+88 silly cache add   type: 'version' }
+89 silly addNamed ionicons@3.0.0
+90 verbose addNamed "3.0.0" is a plain semver version for ionicons
+91 silly mapToRegistry name ionicons
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry http://registry.cnpmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'ionicons',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   name: 'ionicons',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri http://registry.cnpmjs.org/ionicons
+96 verbose addNameVersion registry:http://registry.cnpmjs.org/ionicons not in flight; fetching
+97 silly cache add args [ 'reflect-metadata@^0.1.3', null ]
+98 verbose cache add spec reflect-metadata@^0.1.3
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'reflect-metadata@^0.1.3',
+99 silly cache add   scope: null,
+99 silly cache add   name: 'reflect-metadata',
+99 silly cache add   rawSpec: '^0.1.3',
+99 silly cache add   spec: '>=0.1.3 <0.2.0',
+99 silly cache add   type: 'range' }
+100 silly addNamed reflect-metadata@>=0.1.3 <0.2.0
+101 verbose addNamed ">=0.1.3 <0.2.0" is a valid semver range for reflect-metadata
+102 silly addNameRange { name: 'reflect-metadata',
+102 silly addNameRange   range: '>=0.1.3 <0.2.0',
+102 silly addNameRange   hasData: false }
+103 silly mapToRegistry name reflect-metadata
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry http://registry.cnpmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'reflect-metadata',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   name: 'reflect-metadata',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri http://registry.cnpmjs.org/reflect-metadata
+108 verbose addNameRange registry:http://registry.cnpmjs.org/reflect-metadata not in flight; fetching
+109 silly cache add args [ 'rxjs@5.0.0-beta.6', null ]
+110 verbose cache add spec rxjs@5.0.0-beta.6
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'rxjs@5.0.0-beta.6',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'rxjs',
+111 silly cache add   rawSpec: '5.0.0-beta.6',
+111 silly cache add   spec: '5.0.0-beta.6',
+111 silly cache add   type: 'version' }
+112 silly addNamed rxjs@5.0.0-beta.6
+113 verbose addNamed "5.0.0-beta.6" is a plain semver version for rxjs
+114 silly mapToRegistry name rxjs
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry http://registry.cnpmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'rxjs',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   name: 'rxjs',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri http://registry.cnpmjs.org/rxjs
+119 verbose addNameVersion registry:http://registry.cnpmjs.org/rxjs not in flight; fetching
+120 silly cache add args [ 'zone.js@^0.6.12', null ]
+121 verbose cache add spec zone.js@^0.6.12
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'zone.js@^0.6.12',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'zone.js',
+122 silly cache add   rawSpec: '^0.6.12',
+122 silly cache add   spec: '>=0.6.12 <0.7.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed zone.js@>=0.6.12 <0.7.0
+124 verbose addNamed ">=0.6.12 <0.7.0" is a valid semver range for zone.js
+125 silly addNameRange { name: 'zone.js', range: '>=0.6.12 <0.7.0', hasData: false }
+126 silly mapToRegistry name zone.js
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry http://registry.cnpmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'zone.js',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   name: 'zone.js',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri http://registry.cnpmjs.org/zone.js
+131 verbose addNameRange registry:http://registry.cnpmjs.org/zone.js not in flight; fetching
+132 silly cache add args [ 'del@2.2.0', null ]
+133 verbose cache add spec del@2.2.0
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'del@2.2.0',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'del',
+134 silly cache add   rawSpec: '2.2.0',
+134 silly cache add   spec: '2.2.0',
+134 silly cache add   type: 'version' }
+135 silly addNamed del@2.2.0
+136 verbose addNamed "2.2.0" is a plain semver version for del
+137 silly mapToRegistry name del
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry http://registry.cnpmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'del',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   name: 'del',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri http://registry.cnpmjs.org/del
+142 verbose addNameVersion registry:http://registry.cnpmjs.org/del not in flight; fetching
+143 silly cache add args [ 'gulp@3.9.1', null ]
+144 verbose cache add spec gulp@3.9.1
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'gulp@3.9.1',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'gulp',
+145 silly cache add   rawSpec: '3.9.1',
+145 silly cache add   spec: '3.9.1',
+145 silly cache add   type: 'version' }
+146 silly addNamed gulp@3.9.1
+147 verbose addNamed "3.9.1" is a plain semver version for gulp
+148 silly mapToRegistry name gulp
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry http://registry.cnpmjs.org/
+151 silly mapToRegistry data Result {
+151 silly mapToRegistry   raw: 'gulp',
+151 silly mapToRegistry   scope: null,
+151 silly mapToRegistry   name: 'gulp',
+151 silly mapToRegistry   rawSpec: '',
+151 silly mapToRegistry   spec: 'latest',
+151 silly mapToRegistry   type: 'tag' }
+152 silly mapToRegistry uri http://registry.cnpmjs.org/gulp
+153 verbose addNameVersion registry:http://registry.cnpmjs.org/gulp not in flight; fetching
+154 silly cache add args [ 'gulp-watch@4.3.5', null ]
+155 verbose cache add spec gulp-watch@4.3.5
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'gulp-watch@4.3.5',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'gulp-watch',
+156 silly cache add   rawSpec: '4.3.5',
+156 silly cache add   spec: '4.3.5',
+156 silly cache add   type: 'version' }
+157 silly addNamed gulp-watch@4.3.5
+158 verbose addNamed "4.3.5" is a plain semver version for gulp-watch
+159 silly mapToRegistry name gulp-watch
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry http://registry.cnpmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'gulp-watch',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   name: 'gulp-watch',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri http://registry.cnpmjs.org/gulp-watch
+164 verbose addNameVersion registry:http://registry.cnpmjs.org/gulp-watch not in flight; fetching
+165 silly cache add args [ 'ionic-gulp-browserify-typescript@2.0.0', null ]
+166 verbose cache add spec ionic-gulp-browserify-typescript@2.0.0
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'ionic-gulp-browserify-typescript@2.0.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'ionic-gulp-browserify-typescript',
+167 silly cache add   rawSpec: '2.0.0',
+167 silly cache add   spec: '2.0.0',
+167 silly cache add   type: 'version' }
+168 silly addNamed ionic-gulp-browserify-typescript@2.0.0
+169 verbose addNamed "2.0.0" is a plain semver version for ionic-gulp-browserify-typescript
+170 silly mapToRegistry name ionic-gulp-browserify-typescript
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry http://registry.cnpmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'ionic-gulp-browserify-typescript',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   name: 'ionic-gulp-browserify-typescript',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-browserify-typescript
+175 verbose addNameVersion registry:http://registry.cnpmjs.org/ionic-gulp-browserify-typescript not in flight; fetching
+176 silly cache add args [ 'ionic-gulp-fonts-copy@^1.0.0', null ]
+177 verbose cache add spec ionic-gulp-fonts-copy@^1.0.0
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'ionic-gulp-fonts-copy@^1.0.0',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'ionic-gulp-fonts-copy',
+178 silly cache add   rawSpec: '^1.0.0',
+178 silly cache add   spec: '>=1.0.0 <2.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed ionic-gulp-fonts-copy@>=1.0.0 <2.0.0
+180 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-fonts-copy
+181 silly addNameRange { name: 'ionic-gulp-fonts-copy',
+181 silly addNameRange   range: '>=1.0.0 <2.0.0',
+181 silly addNameRange   hasData: false }
+182 silly mapToRegistry name ionic-gulp-fonts-copy
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry http://registry.cnpmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'ionic-gulp-fonts-copy',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   name: 'ionic-gulp-fonts-copy',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-fonts-copy
+187 verbose addNameRange registry:http://registry.cnpmjs.org/ionic-gulp-fonts-copy not in flight; fetching
+188 silly cache add args [ 'ionic-gulp-html-copy@^1.0.0', null ]
+189 verbose cache add spec ionic-gulp-html-copy@^1.0.0
+190 silly cache add parsed spec Result {
+190 silly cache add   raw: 'ionic-gulp-html-copy@^1.0.0',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'ionic-gulp-html-copy',
+190 silly cache add   rawSpec: '^1.0.0',
+190 silly cache add   spec: '>=1.0.0 <2.0.0',
+190 silly cache add   type: 'range' }
+191 silly addNamed ionic-gulp-html-copy@>=1.0.0 <2.0.0
+192 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-html-copy
+193 silly addNameRange { name: 'ionic-gulp-html-copy',
+193 silly addNameRange   range: '>=1.0.0 <2.0.0',
+193 silly addNameRange   hasData: false }
+194 silly mapToRegistry name ionic-gulp-html-copy
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry http://registry.cnpmjs.org/
+197 silly mapToRegistry data Result {
+197 silly mapToRegistry   raw: 'ionic-gulp-html-copy',
+197 silly mapToRegistry   scope: null,
+197 silly mapToRegistry   name: 'ionic-gulp-html-copy',
+197 silly mapToRegistry   rawSpec: '',
+197 silly mapToRegistry   spec: 'latest',
+197 silly mapToRegistry   type: 'tag' }
+198 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-html-copy
+199 verbose addNameRange registry:http://registry.cnpmjs.org/ionic-gulp-html-copy not in flight; fetching
+200 silly cache add args [ 'ionic-gulp-sass-build@^1.0.0', null ]
+201 verbose cache add spec ionic-gulp-sass-build@^1.0.0
+202 silly cache add parsed spec Result {
+202 silly cache add   raw: 'ionic-gulp-sass-build@^1.0.0',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'ionic-gulp-sass-build',
+202 silly cache add   rawSpec: '^1.0.0',
+202 silly cache add   spec: '>=1.0.0 <2.0.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed ionic-gulp-sass-build@>=1.0.0 <2.0.0
+204 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-sass-build
+205 silly addNameRange { name: 'ionic-gulp-sass-build',
+205 silly addNameRange   range: '>=1.0.0 <2.0.0',
+205 silly addNameRange   hasData: false }
+206 silly mapToRegistry name ionic-gulp-sass-build
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry http://registry.cnpmjs.org/
+209 silly mapToRegistry data Result {
+209 silly mapToRegistry   raw: 'ionic-gulp-sass-build',
+209 silly mapToRegistry   scope: null,
+209 silly mapToRegistry   name: 'ionic-gulp-sass-build',
+209 silly mapToRegistry   rawSpec: '',
+209 silly mapToRegistry   spec: 'latest',
+209 silly mapToRegistry   type: 'tag' }
+210 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-sass-build
+211 verbose addNameRange registry:http://registry.cnpmjs.org/ionic-gulp-sass-build not in flight; fetching
+212 silly cache add args [ 'ionic-gulp-scripts-copy@^2.0.0', null ]
+213 verbose cache add spec ionic-gulp-scripts-copy@^2.0.0
+214 silly cache add parsed spec Result {
+214 silly cache add   raw: 'ionic-gulp-scripts-copy@^2.0.0',
+214 silly cache add   scope: null,
+214 silly cache add   name: 'ionic-gulp-scripts-copy',
+214 silly cache add   rawSpec: '^2.0.0',
+214 silly cache add   spec: '>=2.0.0 <3.0.0',
+214 silly cache add   type: 'range' }
+215 silly addNamed ionic-gulp-scripts-copy@>=2.0.0 <3.0.0
+216 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ionic-gulp-scripts-copy
+217 silly addNameRange { name: 'ionic-gulp-scripts-copy',
+217 silly addNameRange   range: '>=2.0.0 <3.0.0',
+217 silly addNameRange   hasData: false }
+218 silly mapToRegistry name ionic-gulp-scripts-copy
+219 silly mapToRegistry using default registry
+220 silly mapToRegistry registry http://registry.cnpmjs.org/
+221 silly mapToRegistry data Result {
+221 silly mapToRegistry   raw: 'ionic-gulp-scripts-copy',
+221 silly mapToRegistry   scope: null,
+221 silly mapToRegistry   name: 'ionic-gulp-scripts-copy',
+221 silly mapToRegistry   rawSpec: '',
+221 silly mapToRegistry   spec: 'latest',
+221 silly mapToRegistry   type: 'tag' }
+222 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-scripts-copy
+223 verbose addNameRange registry:http://registry.cnpmjs.org/ionic-gulp-scripts-copy not in flight; fetching
+224 silly cache add args [ 'ionic-gulp-tslint@^1.0.0', null ]
+225 verbose cache add spec ionic-gulp-tslint@^1.0.0
+226 silly cache add parsed spec Result {
+226 silly cache add   raw: 'ionic-gulp-tslint@^1.0.0',
+226 silly cache add   scope: null,
+226 silly cache add   name: 'ionic-gulp-tslint',
+226 silly cache add   rawSpec: '^1.0.0',
+226 silly cache add   spec: '>=1.0.0 <2.0.0',
+226 silly cache add   type: 'range' }
+227 silly addNamed ionic-gulp-tslint@>=1.0.0 <2.0.0
+228 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-tslint
+229 silly addNameRange { name: 'ionic-gulp-tslint',
+229 silly addNameRange   range: '>=1.0.0 <2.0.0',
+229 silly addNameRange   hasData: false }
+230 silly mapToRegistry name ionic-gulp-tslint
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry http://registry.cnpmjs.org/
+233 silly mapToRegistry data Result {
+233 silly mapToRegistry   raw: 'ionic-gulp-tslint',
+233 silly mapToRegistry   scope: null,
+233 silly mapToRegistry   name: 'ionic-gulp-tslint',
+233 silly mapToRegistry   rawSpec: '',
+233 silly mapToRegistry   spec: 'latest',
+233 silly mapToRegistry   type: 'tag' }
+234 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-tslint
+235 verbose addNameRange registry:http://registry.cnpmjs.org/ionic-gulp-tslint not in flight; fetching
+236 silly cache add args [ 'tslint-ionic-rules@^0.0.3', null ]
+237 verbose cache add spec tslint-ionic-rules@^0.0.3
+238 silly cache add parsed spec Result {
+238 silly cache add   raw: 'tslint-ionic-rules@^0.0.3',
+238 silly cache add   scope: null,
+238 silly cache add   name: 'tslint-ionic-rules',
+238 silly cache add   rawSpec: '^0.0.3',
+238 silly cache add   spec: '>=0.0.3 <0.0.4',
+238 silly cache add   type: 'range' }
+239 silly addNamed tslint-ionic-rules@>=0.0.3 <0.0.4
+240 verbose addNamed ">=0.0.3 <0.0.4" is a valid semver range for tslint-ionic-rules
+241 silly addNameRange { name: 'tslint-ionic-rules',
+241 silly addNameRange   range: '>=0.0.3 <0.0.4',
+241 silly addNameRange   hasData: false }
+242 silly mapToRegistry name tslint-ionic-rules
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry http://registry.cnpmjs.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'tslint-ionic-rules',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   name: 'tslint-ionic-rules',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri http://registry.cnpmjs.org/tslint-ionic-rules
+247 verbose addNameRange registry:http://registry.cnpmjs.org/tslint-ionic-rules not in flight; fetching
+248 silly cache add args [ 'run-sequence@1.1.5', null ]
+249 verbose cache add spec run-sequence@1.1.5
+250 silly cache add parsed spec Result {
+250 silly cache add   raw: 'run-sequence@1.1.5',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'run-sequence',
+250 silly cache add   rawSpec: '1.1.5',
+250 silly cache add   spec: '1.1.5',
+250 silly cache add   type: 'version' }
+251 silly addNamed run-sequence@1.1.5
+252 verbose addNamed "1.1.5" is a plain semver version for run-sequence
+253 silly mapToRegistry name run-sequence
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry http://registry.cnpmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'run-sequence',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   name: 'run-sequence',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri http://registry.cnpmjs.org/run-sequence
+258 verbose addNameVersion registry:http://registry.cnpmjs.org/run-sequence not in flight; fetching
+259 silly cache add args [ '@angular/common@2.0.0-rc.3', null ]
+260 verbose cache add spec @angular/common@2.0.0-rc.3
+261 silly cache add parsed spec Result {
+261 silly cache add   raw: '@angular/common@2.0.0-rc.3',
+261 silly cache add   scope: '@angular',
+261 silly cache add   name: '@angular/common',
+261 silly cache add   rawSpec: '2.0.0-rc.3',
+261 silly cache add   spec: '2.0.0-rc.3',
+261 silly cache add   type: 'version' }
+262 silly addNamed @angular/common@2.0.0-rc.3
+263 verbose addNamed "2.0.0-rc.3" is a plain semver version for @angular/common
+264 silly mapToRegistry name @angular/common
+265 silly mapToRegistry scope (from package name) @angular
+266 verbose mapToRegistry no registry URL found in name for scope @angular
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry http://registry.cnpmjs.org/
+269 silly mapToRegistry data Result {
+269 silly mapToRegistry   raw: '@angular/common',
+269 silly mapToRegistry   scope: '@angular',
+269 silly mapToRegistry   name: '@angular/common',
+269 silly mapToRegistry   rawSpec: '',
+269 silly mapToRegistry   spec: 'latest',
+269 silly mapToRegistry   type: 'tag' }
+270 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fcommon
+271 verbose addNameVersion registry:http://registry.cnpmjs.org/@angular%2fcommon not in flight; fetching
+272 silly cache add args [ '@angular/compiler@2.0.0-rc.3', null ]
+273 verbose cache add spec @angular/compiler@2.0.0-rc.3
+274 silly cache add parsed spec Result {
+274 silly cache add   raw: '@angular/compiler@2.0.0-rc.3',
+274 silly cache add   scope: '@angular',
+274 silly cache add   name: '@angular/compiler',
+274 silly cache add   rawSpec: '2.0.0-rc.3',
+274 silly cache add   spec: '2.0.0-rc.3',
+274 silly cache add   type: 'version' }
+275 silly addNamed @angular/compiler@2.0.0-rc.3
+276 verbose addNamed "2.0.0-rc.3" is a plain semver version for @angular/compiler
+277 silly mapToRegistry name @angular/compiler
+278 silly mapToRegistry scope (from package name) @angular
+279 verbose mapToRegistry no registry URL found in name for scope @angular
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry http://registry.cnpmjs.org/
+282 silly mapToRegistry data Result {
+282 silly mapToRegistry   raw: '@angular/compiler',
+282 silly mapToRegistry   scope: '@angular',
+282 silly mapToRegistry   name: '@angular/compiler',
+282 silly mapToRegistry   rawSpec: '',
+282 silly mapToRegistry   spec: 'latest',
+282 silly mapToRegistry   type: 'tag' }
+283 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fcompiler
+284 verbose addNameVersion registry:http://registry.cnpmjs.org/@angular%2fcompiler not in flight; fetching
+285 silly cache add args [ '@angular/core@2.0.0-rc.3', null ]
+286 verbose cache add spec @angular/core@2.0.0-rc.3
+287 silly cache add parsed spec Result {
+287 silly cache add   raw: '@angular/core@2.0.0-rc.3',
+287 silly cache add   scope: '@angular',
+287 silly cache add   name: '@angular/core',
+287 silly cache add   rawSpec: '2.0.0-rc.3',
+287 silly cache add   spec: '2.0.0-rc.3',
+287 silly cache add   type: 'version' }
+288 silly addNamed @angular/core@2.0.0-rc.3
+289 verbose addNamed "2.0.0-rc.3" is a plain semver version for @angular/core
+290 silly mapToRegistry name @angular/core
+291 silly mapToRegistry scope (from package name) @angular
+292 verbose mapToRegistry no registry URL found in name for scope @angular
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry http://registry.cnpmjs.org/
+295 silly mapToRegistry data Result {
+295 silly mapToRegistry   raw: '@angular/core',
+295 silly mapToRegistry   scope: '@angular',
+295 silly mapToRegistry   name: '@angular/core',
+295 silly mapToRegistry   rawSpec: '',
+295 silly mapToRegistry   spec: 'latest',
+295 silly mapToRegistry   type: 'tag' }
+296 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fcore
+297 verbose addNameVersion registry:http://registry.cnpmjs.org/@angular%2fcore not in flight; fetching
+298 verbose request uri http://registry.cnpmjs.org/@angular%2fplatform-browser
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 10:36:44
+301 verbose request id 0c5529109f788dff
+302 http request GET http://registry.cnpmjs.org/@angular%2fplatform-browser
+303 verbose request uri http://registry.cnpmjs.org/ionic-angular
+304 verbose request no auth needed
+305 info attempt registry request try #1 at 10:36:44
+306 http request GET http://registry.cnpmjs.org/ionic-angular
+307 verbose request uri http://registry.cnpmjs.org/@angular%2fplatform-browser-dynamic
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 10:36:44
+310 http request GET http://registry.cnpmjs.org/@angular%2fplatform-browser-dynamic
+311 verbose request uri http://registry.cnpmjs.org/ionic-native
+312 verbose request no auth needed
+313 info attempt registry request try #1 at 10:36:44
+314 http request GET http://registry.cnpmjs.org/ionic-native
+315 verbose request uri http://registry.cnpmjs.org/es6-shim
+316 verbose request no auth needed
+317 info attempt registry request try #1 at 10:36:44
+318 http request GET http://registry.cnpmjs.org/es6-shim
+319 verbose request uri http://registry.cnpmjs.org/ionicons
+320 verbose request no auth needed
+321 info attempt registry request try #1 at 10:36:44
+322 http request GET http://registry.cnpmjs.org/ionicons
+323 verbose request uri http://registry.cnpmjs.org/reflect-metadata
+324 verbose request no auth needed
+325 info attempt registry request try #1 at 10:36:44
+326 http request GET http://registry.cnpmjs.org/reflect-metadata
+327 verbose request uri http://registry.cnpmjs.org/rxjs
+328 verbose request no auth needed
+329 info attempt registry request try #1 at 10:36:44
+330 http request GET http://registry.cnpmjs.org/rxjs
+331 verbose request uri http://registry.cnpmjs.org/@angular%2fhttp
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 10:36:44
+334 http request GET http://registry.cnpmjs.org/@angular%2fhttp
+335 verbose request uri http://registry.cnpmjs.org/del
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 10:36:44
+338 http request GET http://registry.cnpmjs.org/del
+339 verbose request uri http://registry.cnpmjs.org/zone.js
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 10:36:44
+342 http request GET http://registry.cnpmjs.org/zone.js
+343 verbose request uri http://registry.cnpmjs.org/gulp
+344 verbose request no auth needed
+345 info attempt registry request try #1 at 10:36:44
+346 http request GET http://registry.cnpmjs.org/gulp
+347 verbose request uri http://registry.cnpmjs.org/gulp-watch
+348 verbose request no auth needed
+349 info attempt registry request try #1 at 10:36:44
+350 http request GET http://registry.cnpmjs.org/gulp-watch
+351 verbose request uri http://registry.cnpmjs.org/ionic-gulp-browserify-typescript
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 10:36:44
+354 http request GET http://registry.cnpmjs.org/ionic-gulp-browserify-typescript
+355 verbose request uri http://registry.cnpmjs.org/ionic-gulp-html-copy
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 10:36:44
+358 http request GET http://registry.cnpmjs.org/ionic-gulp-html-copy
+359 verbose request uri http://registry.cnpmjs.org/ionic-gulp-fonts-copy
+360 verbose request no auth needed
+361 info attempt registry request try #1 at 10:36:44
+362 http request GET http://registry.cnpmjs.org/ionic-gulp-fonts-copy
+363 verbose request uri http://registry.cnpmjs.org/ionic-gulp-scripts-copy
+364 verbose request no auth needed
+365 info attempt registry request try #1 at 10:36:44
+366 http request GET http://registry.cnpmjs.org/ionic-gulp-scripts-copy
+367 verbose request uri http://registry.cnpmjs.org/run-sequence
+368 verbose request no auth needed
+369 info attempt registry request try #1 at 10:36:44
+370 http request GET http://registry.cnpmjs.org/run-sequence
+371 verbose request uri http://registry.cnpmjs.org/ionic-gulp-tslint
+372 verbose request no auth needed
+373 info attempt registry request try #1 at 10:36:44
+374 http request GET http://registry.cnpmjs.org/ionic-gulp-tslint
+375 verbose request uri http://registry.cnpmjs.org/tslint-ionic-rules
+376 verbose request no auth needed
+377 info attempt registry request try #1 at 10:36:44
+378 http request GET http://registry.cnpmjs.org/tslint-ionic-rules
+379 verbose request uri http://registry.cnpmjs.org/ionic-gulp-sass-build
+380 verbose request no auth needed
+381 info attempt registry request try #1 at 10:36:44
+382 http request GET http://registry.cnpmjs.org/ionic-gulp-sass-build
+383 verbose request uri http://registry.cnpmjs.org/@angular%2fcommon
+384 verbose request no auth needed
+385 info attempt registry request try #1 at 10:36:44
+386 http request GET http://registry.cnpmjs.org/@angular%2fcommon
+387 verbose request uri http://registry.cnpmjs.org/@angular%2fcompiler
+388 verbose request no auth needed
+389 info attempt registry request try #1 at 10:36:44
+390 http request GET http://registry.cnpmjs.org/@angular%2fcompiler
+391 verbose request uri http://registry.cnpmjs.org/@angular%2fcore
+392 verbose request no auth needed
+393 info attempt registry request try #1 at 10:36:44
+394 http request GET http://registry.cnpmjs.org/@angular%2fcore
+395 http 200 http://registry.cnpmjs.org/ionicons
+396 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+396 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+396 verbose headers   'content-type': 'application/json; charset=utf-8',
+396 verbose headers   'transfer-encoding': 'chunked',
+396 verbose headers   connection: 'keep-alive',
+396 verbose headers   'x-readtime': '45',
+396 verbose headers   'strict-transport-security': 'max-age=15768000',
+396 verbose headers   'content-encoding': 'gzip' }
+397 silly get cb [ 200,
+397 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+397 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+397 silly get     'content-type': 'application/json; charset=utf-8',
+397 silly get     'transfer-encoding': 'chunked',
+397 silly get     connection: 'keep-alive',
+397 silly get     'x-readtime': '45',
+397 silly get     'strict-transport-security': 'max-age=15768000',
+397 silly get     'content-encoding': 'gzip' } ]
+398 verbose get saving ionicons to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionicons\.cache.json
+399 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+400 silly mapToRegistry name ionicons
+401 silly mapToRegistry using default registry
+402 silly mapToRegistry registry http://registry.cnpmjs.org/
+403 silly mapToRegistry data Result {
+403 silly mapToRegistry   raw: 'ionicons',
+403 silly mapToRegistry   scope: null,
+403 silly mapToRegistry   name: 'ionicons',
+403 silly mapToRegistry   rawSpec: '',
+403 silly mapToRegistry   spec: 'latest',
+403 silly mapToRegistry   type: 'tag' }
+404 silly mapToRegistry uri http://registry.cnpmjs.org/ionicons
+405 verbose addRemoteTarball http://registry.cnpmjs.org/ionicons/download/ionicons-3.0.0.tgz not in flight; adding
+406 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/ionicons/download/ionicons-3.0.0.tgz',
+406 verbose addRemoteTarball   '40b8daf4fd7a31150bd002160f66496e22a98c3c' ]
+407 http 200 http://registry.cnpmjs.org/reflect-metadata
+408 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+408 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+408 verbose headers   'content-type': 'application/json; charset=utf-8',
+408 verbose headers   'transfer-encoding': 'chunked',
+408 verbose headers   connection: 'keep-alive',
+408 verbose headers   'x-readtime': '63',
+408 verbose headers   'strict-transport-security': 'max-age=15768000',
+408 verbose headers   'content-encoding': 'gzip' }
+409 silly get cb [ 200,
+409 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+409 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+409 silly get     'content-type': 'application/json; charset=utf-8',
+409 silly get     'transfer-encoding': 'chunked',
+409 silly get     connection: 'keep-alive',
+409 silly get     'x-readtime': '63',
+409 silly get     'strict-transport-security': 'max-age=15768000',
+409 silly get     'content-encoding': 'gzip' } ]
+410 verbose get saving reflect-metadata to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\reflect-metadata\.cache.json
+411 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+412 http 200 http://registry.cnpmjs.org/@angular%2fplatform-browser-dynamic
+413 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+413 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+413 verbose headers   'content-type': 'application/json; charset=utf-8',
+413 verbose headers   'transfer-encoding': 'chunked',
+413 verbose headers   connection: 'keep-alive',
+413 verbose headers   'x-readtime': '68',
+413 verbose headers   'strict-transport-security': 'max-age=15768000',
+413 verbose headers   'content-encoding': 'gzip' }
+414 silly get cb [ 200,
+414 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+414 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+414 silly get     'content-type': 'application/json; charset=utf-8',
+414 silly get     'transfer-encoding': 'chunked',
+414 silly get     connection: 'keep-alive',
+414 silly get     'x-readtime': '68',
+414 silly get     'strict-transport-security': 'max-age=15768000',
+414 silly get     'content-encoding': 'gzip' } ]
+415 verbose get saving @angular/platform-browser-dynamic to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\_40angular_252fplatform-browser-dynamic\.cache.json
+416 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+417 http 200 http://registry.cnpmjs.org/rxjs
+418 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+418 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+418 verbose headers   'content-type': 'application/json; charset=utf-8',
+418 verbose headers   'transfer-encoding': 'chunked',
+418 verbose headers   connection: 'keep-alive',
+418 verbose headers   'x-readtime': '60',
+418 verbose headers   'strict-transport-security': 'max-age=15768000',
+418 verbose headers   'content-encoding': 'gzip' }
+419 silly get cb [ 200,
+419 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+419 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+419 silly get     'content-type': 'application/json; charset=utf-8',
+419 silly get     'transfer-encoding': 'chunked',
+419 silly get     connection: 'keep-alive',
+419 silly get     'x-readtime': '60',
+419 silly get     'strict-transport-security': 'max-age=15768000',
+419 silly get     'content-encoding': 'gzip' } ]
+420 verbose get saving rxjs to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\rxjs\.cache.json
+421 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+422 http 200 http://registry.cnpmjs.org/ionic-native
+423 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+423 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+423 verbose headers   'content-type': 'application/json; charset=utf-8',
+423 verbose headers   'transfer-encoding': 'chunked',
+423 verbose headers   connection: 'keep-alive',
+423 verbose headers   'x-readtime': '81',
+423 verbose headers   'strict-transport-security': 'max-age=15768000',
+423 verbose headers   'content-encoding': 'gzip' }
+424 silly get cb [ 200,
+424 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+424 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+424 silly get     'content-type': 'application/json; charset=utf-8',
+424 silly get     'transfer-encoding': 'chunked',
+424 silly get     connection: 'keep-alive',
+424 silly get     'x-readtime': '81',
+424 silly get     'strict-transport-security': 'max-age=15768000',
+424 silly get     'content-encoding': 'gzip' } ]
+425 verbose get saving ionic-native to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-native\.cache.json
+426 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+427 http 200 http://registry.cnpmjs.org/del
+428 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+428 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+428 verbose headers   'content-type': 'application/json; charset=utf-8',
+428 verbose headers   'transfer-encoding': 'chunked',
+428 verbose headers   connection: 'keep-alive',
+428 verbose headers   'x-readtime': '76',
+428 verbose headers   'strict-transport-security': 'max-age=15768000',
+428 verbose headers   'content-encoding': 'gzip' }
+429 silly get cb [ 200,
+429 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+429 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+429 silly get     'content-type': 'application/json; charset=utf-8',
+429 silly get     'transfer-encoding': 'chunked',
+429 silly get     connection: 'keep-alive',
+429 silly get     'x-readtime': '76',
+429 silly get     'strict-transport-security': 'max-age=15768000',
+429 silly get     'content-encoding': 'gzip' } ]
+430 verbose get saving del to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\del\.cache.json
+431 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+432 info retry fetch attempt 1 at 10:36:45
+433 info attempt registry request try #1 at 10:36:45
+434 http fetch GET http://registry.cnpmjs.org/ionicons/download/ionicons-3.0.0.tgz
+435 silly addNameRange number 2 { name: 'reflect-metadata',
+435 silly addNameRange   range: '>=0.1.3 <0.2.0',
+435 silly addNameRange   hasData: true }
+436 silly addNameRange versions [ 'reflect-metadata',
+436 silly addNameRange   [ '0.1.3', '0.1.2', '0.1.1', '0.1.0', '0.0.3', '0.0.2' ] ]
+437 silly addNamed reflect-metadata@0.1.3
+438 verbose addNamed "0.1.3" is a plain semver version for reflect-metadata
+439 http 200 http://registry.cnpmjs.org/ionic-gulp-scripts-copy
+440 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+440 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+440 verbose headers   'content-type': 'application/json; charset=utf-8',
+440 verbose headers   'transfer-encoding': 'chunked',
+440 verbose headers   connection: 'keep-alive',
+440 verbose headers   'x-readtime': '97',
+440 verbose headers   'strict-transport-security': 'max-age=15768000',
+440 verbose headers   'content-encoding': 'gzip' }
+441 silly get cb [ 200,
+441 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+441 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+441 silly get     'content-type': 'application/json; charset=utf-8',
+441 silly get     'transfer-encoding': 'chunked',
+441 silly get     connection: 'keep-alive',
+441 silly get     'x-readtime': '97',
+441 silly get     'strict-transport-security': 'max-age=15768000',
+441 silly get     'content-encoding': 'gzip' } ]
+442 verbose get saving ionic-gulp-scripts-copy to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-gulp-scripts-copy\.cache.json
+443 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+444 http 200 http://registry.cnpmjs.org/ionic-gulp-browserify-typescript
+445 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+445 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+445 verbose headers   'content-type': 'application/json; charset=utf-8',
+445 verbose headers   'transfer-encoding': 'chunked',
+445 verbose headers   connection: 'keep-alive',
+445 verbose headers   'x-readtime': '88',
+445 verbose headers   'strict-transport-security': 'max-age=15768000',
+445 verbose headers   'content-encoding': 'gzip' }
+446 silly get cb [ 200,
+446 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+446 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+446 silly get     'content-type': 'application/json; charset=utf-8',
+446 silly get     'transfer-encoding': 'chunked',
+446 silly get     connection: 'keep-alive',
+446 silly get     'x-readtime': '88',
+446 silly get     'strict-transport-security': 'max-age=15768000',
+446 silly get     'content-encoding': 'gzip' } ]
+447 verbose get saving ionic-gulp-browserify-typescript to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-gulp-browserify-typescript\.cache.json
+448 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+449 http 200 http://registry.cnpmjs.org/tslint-ionic-rules
+450 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+450 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+450 verbose headers   'content-type': 'application/json; charset=utf-8',
+450 verbose headers   'transfer-encoding': 'chunked',
+450 verbose headers   connection: 'keep-alive',
+450 verbose headers   'x-readtime': '83',
+450 verbose headers   'strict-transport-security': 'max-age=15768000',
+450 verbose headers   'content-encoding': 'gzip' }
+451 silly get cb [ 200,
+451 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+451 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+451 silly get     'content-type': 'application/json; charset=utf-8',
+451 silly get     'transfer-encoding': 'chunked',
+451 silly get     connection: 'keep-alive',
+451 silly get     'x-readtime': '83',
+451 silly get     'strict-transport-security': 'max-age=15768000',
+451 silly get     'content-encoding': 'gzip' } ]
+452 verbose get saving tslint-ionic-rules to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\tslint-ionic-rules\.cache.json
+453 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+454 silly mapToRegistry name rxjs
+455 silly mapToRegistry using default registry
+456 silly mapToRegistry registry http://registry.cnpmjs.org/
+457 silly mapToRegistry data Result {
+457 silly mapToRegistry   raw: 'rxjs',
+457 silly mapToRegistry   scope: null,
+457 silly mapToRegistry   name: 'rxjs',
+457 silly mapToRegistry   rawSpec: '',
+457 silly mapToRegistry   spec: 'latest',
+457 silly mapToRegistry   type: 'tag' }
+458 silly mapToRegistry uri http://registry.cnpmjs.org/rxjs
+459 verbose addRemoteTarball http://registry.cnpmjs.org/rxjs/download/rxjs-5.0.0-beta.6.tgz not in flight; adding
+460 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/rxjs/download/rxjs-5.0.0-beta.6.tgz',
+460 verbose addRemoteTarball   'cb6dc46d6ddfedfeefc9b15dafd09c34a4370d23' ]
+461 silly mapToRegistry name @angular/platform-browser-dynamic
+462 silly mapToRegistry scope (from package name) @angular
+463 verbose mapToRegistry no registry URL found in name for scope @angular
+464 silly mapToRegistry using default registry
+465 silly mapToRegistry registry http://registry.cnpmjs.org/
+466 silly mapToRegistry data Result {
+466 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+466 silly mapToRegistry   scope: '@angular',
+466 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+466 silly mapToRegistry   rawSpec: '',
+466 silly mapToRegistry   spec: 'latest',
+466 silly mapToRegistry   type: 'tag' }
+467 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fplatform-browser-dynamic
+468 verbose addRemoteTarball http://registry.cnpmjs.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-2.0.0-rc.3.tgz not in flight; adding
+469 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-2.0.0-rc.3.tgz',
+469 verbose addRemoteTarball   'badd6e2b1d2bf710182a321a8f3fbc967ef6d5d0' ]
+470 silly mapToRegistry name ionic-native
+471 silly mapToRegistry using default registry
+472 silly mapToRegistry registry http://registry.cnpmjs.org/
+473 silly mapToRegistry data Result {
+473 silly mapToRegistry   raw: 'ionic-native',
+473 silly mapToRegistry   scope: null,
+473 silly mapToRegistry   name: 'ionic-native',
+473 silly mapToRegistry   rawSpec: '',
+473 silly mapToRegistry   spec: 'latest',
+473 silly mapToRegistry   type: 'tag' }
+474 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-native
+475 verbose addRemoteTarball http://registry.cnpmjs.org/ionic-native/download/ionic-native-1.3.2.tgz not in flight; adding
+476 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/ionic-native/download/ionic-native-1.3.2.tgz',
+476 verbose addRemoteTarball   '40a8056f848734769a163f84c0c83f5e214da6e2' ]
+477 silly mapToRegistry name del
+478 silly mapToRegistry using default registry
+479 silly mapToRegistry registry http://registry.cnpmjs.org/
+480 silly mapToRegistry data Result {
+480 silly mapToRegistry   raw: 'del',
+480 silly mapToRegistry   scope: null,
+480 silly mapToRegistry   name: 'del',
+480 silly mapToRegistry   rawSpec: '',
+480 silly mapToRegistry   spec: 'latest',
+480 silly mapToRegistry   type: 'tag' }
+481 silly mapToRegistry uri http://registry.cnpmjs.org/del
+482 verbose addRemoteTarball http://registry.cnpmjs.org/del/download/del-2.2.0.tgz not in flight; adding
+483 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/del/download/del-2.2.0.tgz',
+483 verbose addRemoteTarball   '9a50f04bf37325e283b4f44e985336c252456bd5' ]
+484 http 200 http://registry.cnpmjs.org/@angular%2fcommon
+485 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+485 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+485 verbose headers   'content-type': 'application/json; charset=utf-8',
+485 verbose headers   'transfer-encoding': 'chunked',
+485 verbose headers   connection: 'keep-alive',
+485 verbose headers   'x-readtime': '76',
+485 verbose headers   'strict-transport-security': 'max-age=15768000',
+485 verbose headers   'content-encoding': 'gzip' }
+486 silly get cb [ 200,
+486 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+486 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+486 silly get     'content-type': 'application/json; charset=utf-8',
+486 silly get     'transfer-encoding': 'chunked',
+486 silly get     connection: 'keep-alive',
+486 silly get     'x-readtime': '76',
+486 silly get     'strict-transport-security': 'max-age=15768000',
+486 silly get     'content-encoding': 'gzip' } ]
+487 verbose get saving @angular/common to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\_40angular_252fcommon\.cache.json
+488 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+489 info retry fetch attempt 1 at 10:36:45
+490 info attempt registry request try #1 at 10:36:45
+491 http fetch GET http://registry.cnpmjs.org/rxjs/download/rxjs-5.0.0-beta.6.tgz
+492 info retry fetch attempt 1 at 10:36:45
+493 info attempt registry request try #1 at 10:36:45
+494 http fetch GET http://registry.cnpmjs.org/ionic-native/download/ionic-native-1.3.2.tgz
+495 http 200 http://registry.cnpmjs.org/ionic-gulp-tslint
+496 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+496 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+496 verbose headers   'content-type': 'application/json; charset=utf-8',
+496 verbose headers   'transfer-encoding': 'chunked',
+496 verbose headers   connection: 'keep-alive',
+496 verbose headers   'x-readtime': '118',
+496 verbose headers   'strict-transport-security': 'max-age=15768000',
+496 verbose headers   'content-encoding': 'gzip' }
+497 silly get cb [ 200,
+497 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+497 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+497 silly get     'content-type': 'application/json; charset=utf-8',
+497 silly get     'transfer-encoding': 'chunked',
+497 silly get     connection: 'keep-alive',
+497 silly get     'x-readtime': '118',
+497 silly get     'strict-transport-security': 'max-age=15768000',
+497 silly get     'content-encoding': 'gzip' } ]
+498 verbose get saving ionic-gulp-tslint to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-gulp-tslint\.cache.json
+499 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+500 http 200 http://registry.cnpmjs.org/ionic-angular
+501 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+501 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+501 verbose headers   'content-type': 'application/json; charset=utf-8',
+501 verbose headers   'transfer-encoding': 'chunked',
+501 verbose headers   connection: 'keep-alive',
+501 verbose headers   'x-readtime': '108',
+501 verbose headers   'strict-transport-security': 'max-age=15768000',
+501 verbose headers   'content-encoding': 'gzip' }
+502 silly get cb [ 200,
+502 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+502 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+502 silly get     'content-type': 'application/json; charset=utf-8',
+502 silly get     'transfer-encoding': 'chunked',
+502 silly get     connection: 'keep-alive',
+502 silly get     'x-readtime': '108',
+502 silly get     'strict-transport-security': 'max-age=15768000',
+502 silly get     'content-encoding': 'gzip' } ]
+503 verbose get saving ionic-angular to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-angular\.cache.json
+504 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+505 http 200 http://registry.cnpmjs.org/ionic-gulp-fonts-copy
+506 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+506 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+506 verbose headers   'content-type': 'application/json; charset=utf-8',
+506 verbose headers   'transfer-encoding': 'chunked',
+506 verbose headers   connection: 'keep-alive',
+506 verbose headers   'x-readtime': '97',
+506 verbose headers   'strict-transport-security': 'max-age=15768000',
+506 verbose headers   'content-encoding': 'gzip' }
+507 silly get cb [ 200,
+507 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+507 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+507 silly get     'content-type': 'application/json; charset=utf-8',
+507 silly get     'transfer-encoding': 'chunked',
+507 silly get     connection: 'keep-alive',
+507 silly get     'x-readtime': '97',
+507 silly get     'strict-transport-security': 'max-age=15768000',
+507 silly get     'content-encoding': 'gzip' } ]
+508 verbose get saving ionic-gulp-fonts-copy to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-gulp-fonts-copy\.cache.json
+509 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+510 silly addNameRange number 2 { name: 'ionic-gulp-scripts-copy',
+510 silly addNameRange   range: '>=2.0.0 <3.0.0',
+510 silly addNameRange   hasData: true }
+511 silly addNameRange versions [ 'ionic-gulp-scripts-copy',
+511 silly addNameRange   [ '2.0.1', '2.0.0', '1.0.1', '1.0.0' ] ]
+512 silly addNamed ionic-gulp-scripts-copy@2.0.1
+513 verbose addNamed "2.0.1" is a plain semver version for ionic-gulp-scripts-copy
+514 info retry fetch attempt 1 at 10:36:45
+515 info attempt registry request try #1 at 10:36:45
+516 http fetch GET http://registry.cnpmjs.org/del/download/del-2.2.0.tgz
+517 http 200 http://registry.cnpmjs.org/ionic-gulp-sass-build
+518 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+518 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+518 verbose headers   'content-type': 'application/json; charset=utf-8',
+518 verbose headers   'transfer-encoding': 'chunked',
+518 verbose headers   connection: 'keep-alive',
+518 verbose headers   'x-readtime': '62',
+518 verbose headers   'strict-transport-security': 'max-age=15768000',
+518 verbose headers   'content-encoding': 'gzip' }
+519 silly get cb [ 200,
+519 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+519 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+519 silly get     'content-type': 'application/json; charset=utf-8',
+519 silly get     'transfer-encoding': 'chunked',
+519 silly get     connection: 'keep-alive',
+519 silly get     'x-readtime': '62',
+519 silly get     'strict-transport-security': 'max-age=15768000',
+519 silly get     'content-encoding': 'gzip' } ]
+520 verbose get saving ionic-gulp-sass-build to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-gulp-sass-build\.cache.json
+521 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+522 silly mapToRegistry name ionic-gulp-browserify-typescript
+523 silly mapToRegistry using default registry
+524 silly mapToRegistry registry http://registry.cnpmjs.org/
+525 silly mapToRegistry data Result {
+525 silly mapToRegistry   raw: 'ionic-gulp-browserify-typescript',
+525 silly mapToRegistry   scope: null,
+525 silly mapToRegistry   name: 'ionic-gulp-browserify-typescript',
+525 silly mapToRegistry   rawSpec: '',
+525 silly mapToRegistry   spec: 'latest',
+525 silly mapToRegistry   type: 'tag' }
+526 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-gulp-browserify-typescript
+527 verbose addRemoteTarball http://registry.cnpmjs.org/ionic-gulp-browserify-typescript/download/ionic-gulp-browserify-typescript-2.0.0.tgz not in flight; adding
+528 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/ionic-gulp-browserify-typescript/download/ionic-gulp-browserify-typescript-2.0.0.tgz',
+528 verbose addRemoteTarball   '4bfb5e4a09a6acfb56ce43ae8dfd654c0a6f6b50' ]
+529 silly addNameRange number 2 { name: 'tslint-ionic-rules',
+529 silly addNameRange   range: '>=0.0.3 <0.0.4',
+529 silly addNameRange   hasData: true }
+530 silly addNameRange versions [ 'tslint-ionic-rules', [ '0.0.3', '0.0.2' ] ]
+531 silly addNamed tslint-ionic-rules@0.0.3
+532 verbose addNamed "0.0.3" is a plain semver version for tslint-ionic-rules
+533 http 200 http://registry.cnpmjs.org/run-sequence
+534 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+534 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+534 verbose headers   'content-type': 'application/json; charset=utf-8',
+534 verbose headers   'transfer-encoding': 'chunked',
+534 verbose headers   connection: 'keep-alive',
+534 verbose headers   'x-readtime': '143',
+534 verbose headers   'strict-transport-security': 'max-age=15768000',
+534 verbose headers   'content-encoding': 'gzip' }
+535 silly get cb [ 200,
+535 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+535 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+535 silly get     'content-type': 'application/json; charset=utf-8',
+535 silly get     'transfer-encoding': 'chunked',
+535 silly get     connection: 'keep-alive',
+535 silly get     'x-readtime': '143',
+535 silly get     'strict-transport-security': 'max-age=15768000',
+535 silly get     'content-encoding': 'gzip' } ]
+536 verbose get saving run-sequence to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\run-sequence\.cache.json
+537 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+538 http 200 http://registry.cnpmjs.org/@angular%2fcore
+539 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+539 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+539 verbose headers   'content-type': 'application/json; charset=utf-8',
+539 verbose headers   'transfer-encoding': 'chunked',
+539 verbose headers   connection: 'keep-alive',
+539 verbose headers   'x-readtime': '46',
+539 verbose headers   'strict-transport-security': 'max-age=15768000',
+539 verbose headers   'content-encoding': 'gzip' }
+540 silly get cb [ 200,
+540 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+540 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+540 silly get     'content-type': 'application/json; charset=utf-8',
+540 silly get     'transfer-encoding': 'chunked',
+540 silly get     connection: 'keep-alive',
+540 silly get     'x-readtime': '46',
+540 silly get     'strict-transport-security': 'max-age=15768000',
+540 silly get     'content-encoding': 'gzip' } ]
+541 verbose get saving @angular/core to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\_40angular_252fcore\.cache.json
+542 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+543 silly cache afterAdd reflect-metadata@0.1.3
+544 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\reflect-metadata\0.1.3\package\package.json not in flight; writing
+545 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+546 http 200 http://registry.cnpmjs.org/@angular%2fplatform-browser
+547 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+547 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+547 verbose headers   'content-type': 'application/json; charset=utf-8',
+547 verbose headers   'transfer-encoding': 'chunked',
+547 verbose headers   connection: 'keep-alive',
+547 verbose headers   'x-readtime': '35',
+547 verbose headers   'strict-transport-security': 'max-age=15768000',
+547 verbose headers   'content-encoding': 'gzip' }
+548 silly get cb [ 200,
+548 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+548 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+548 silly get     'content-type': 'application/json; charset=utf-8',
+548 silly get     'transfer-encoding': 'chunked',
+548 silly get     connection: 'keep-alive',
+548 silly get     'x-readtime': '35',
+548 silly get     'strict-transport-security': 'max-age=15768000',
+548 silly get     'content-encoding': 'gzip' } ]
+549 verbose get saving @angular/platform-browser to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\_40angular_252fplatform-browser\.cache.json
+550 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+551 info retry fetch attempt 1 at 10:36:45
+552 info attempt registry request try #1 at 10:36:45
+553 http fetch GET http://registry.cnpmjs.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-2.0.0-rc.3.tgz
+554 info retry fetch attempt 1 at 10:36:45
+555 info attempt registry request try #1 at 10:36:45
+556 http fetch GET http://registry.cnpmjs.org/ionic-gulp-browserify-typescript/download/ionic-gulp-browserify-typescript-2.0.0.tgz
+557 silly mapToRegistry name @angular/common
+558 silly mapToRegistry scope (from package name) @angular
+559 verbose mapToRegistry no registry URL found in name for scope @angular
+560 silly mapToRegistry using default registry
+561 silly mapToRegistry registry http://registry.cnpmjs.org/
+562 silly mapToRegistry data Result {
+562 silly mapToRegistry   raw: '@angular/common',
+562 silly mapToRegistry   scope: '@angular',
+562 silly mapToRegistry   name: '@angular/common',
+562 silly mapToRegistry   rawSpec: '',
+562 silly mapToRegistry   spec: 'latest',
+562 silly mapToRegistry   type: 'tag' }
+563 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fcommon
+564 verbose addRemoteTarball http://registry.cnpmjs.org/@angular/common/download/@angular/common-2.0.0-rc.3.tgz not in flight; adding
+565 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/@angular/common/download/@angular/common-2.0.0-rc.3.tgz',
+565 verbose addRemoteTarball   '1e5680ff0858aee51b204d5ce5a024ca182ba852' ]
+566 http 200 http://registry.cnpmjs.org/@angular%2fcompiler
+567 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+567 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+567 verbose headers   'content-type': 'application/json; charset=utf-8',
+567 verbose headers   'transfer-encoding': 'chunked',
+567 verbose headers   connection: 'keep-alive',
+567 verbose headers   'x-readtime': '158',
+567 verbose headers   'strict-transport-security': 'max-age=15768000',
+567 verbose headers   'content-encoding': 'gzip' }
+568 silly get cb [ 200,
+568 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+568 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+568 silly get     'content-type': 'application/json; charset=utf-8',
+568 silly get     'transfer-encoding': 'chunked',
+568 silly get     connection: 'keep-alive',
+568 silly get     'x-readtime': '158',
+568 silly get     'strict-transport-security': 'max-age=15768000',
+568 silly get     'content-encoding': 'gzip' } ]
+569 verbose get saving @angular/compiler to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\_40angular_252fcompiler\.cache.json
+570 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+571 silly cache afterAdd ionic-gulp-scripts-copy@2.0.1
+572 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-scripts-copy\2.0.1\package\package.json not in flight; writing
+573 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+574 silly addNameRange number 2 { name: 'ionic-gulp-tslint',
+574 silly addNameRange   range: '>=1.0.0 <2.0.0',
+574 silly addNameRange   hasData: true }
+575 silly addNameRange versions [ 'ionic-gulp-tslint', [ '1.1.0', '1.0.0' ] ]
+576 silly addNamed ionic-gulp-tslint@1.1.0
+577 verbose addNamed "1.1.0" is a plain semver version for ionic-gulp-tslint
+578 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\reflect-metadata\0.1.3\package\package.json written
+579 http 200 http://registry.cnpmjs.org/zone.js
+580 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+580 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+580 verbose headers   'content-type': 'application/json; charset=utf-8',
+580 verbose headers   'transfer-encoding': 'chunked',
+580 verbose headers   connection: 'keep-alive',
+580 verbose headers   'x-readtime': '163',
+580 verbose headers   'strict-transport-security': 'max-age=15768000',
+580 verbose headers   'content-encoding': 'gzip' }
+581 silly get cb [ 200,
+581 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+581 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+581 silly get     'content-type': 'application/json; charset=utf-8',
+581 silly get     'transfer-encoding': 'chunked',
+581 silly get     connection: 'keep-alive',
+581 silly get     'x-readtime': '163',
+581 silly get     'strict-transport-security': 'max-age=15768000',
+581 silly get     'content-encoding': 'gzip' } ]
+582 verbose get saving zone.js to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\zone.js\.cache.json
+583 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+584 http 200 http://registry.cnpmjs.org/@angular%2fhttp
+585 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+585 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+585 verbose headers   'content-type': 'application/json; charset=utf-8',
+585 verbose headers   'transfer-encoding': 'chunked',
+585 verbose headers   connection: 'keep-alive',
+585 verbose headers   'x-readtime': '137',
+585 verbose headers   'strict-transport-security': 'max-age=15768000',
+585 verbose headers   'content-encoding': 'gzip' }
+586 silly get cb [ 200,
+586 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+586 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+586 silly get     'content-type': 'application/json; charset=utf-8',
+586 silly get     'transfer-encoding': 'chunked',
+586 silly get     connection: 'keep-alive',
+586 silly get     'x-readtime': '137',
+586 silly get     'strict-transport-security': 'max-age=15768000',
+586 silly get     'content-encoding': 'gzip' } ]
+587 verbose get saving @angular/http to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\_40angular_252fhttp\.cache.json
+588 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+589 http 200 http://registry.cnpmjs.org/ionic-gulp-html-copy
+590 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+590 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+590 verbose headers   'content-type': 'application/json; charset=utf-8',
+590 verbose headers   'transfer-encoding': 'chunked',
+590 verbose headers   connection: 'keep-alive',
+590 verbose headers   'x-readtime': '114',
+590 verbose headers   'strict-transport-security': 'max-age=15768000',
+590 verbose headers   'content-encoding': 'gzip' }
+591 silly get cb [ 200,
+591 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+591 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+591 silly get     'content-type': 'application/json; charset=utf-8',
+591 silly get     'transfer-encoding': 'chunked',
+591 silly get     connection: 'keep-alive',
+591 silly get     'x-readtime': '114',
+591 silly get     'strict-transport-security': 'max-age=15768000',
+591 silly get     'content-encoding': 'gzip' } ]
+592 verbose get saving ionic-gulp-html-copy to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\ionic-gulp-html-copy\.cache.json
+593 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+594 silly mapToRegistry name ionic-angular
+595 silly mapToRegistry using default registry
+596 silly mapToRegistry registry http://registry.cnpmjs.org/
+597 silly mapToRegistry data Result {
+597 silly mapToRegistry   raw: 'ionic-angular',
+597 silly mapToRegistry   scope: null,
+597 silly mapToRegistry   name: 'ionic-angular',
+597 silly mapToRegistry   rawSpec: '',
+597 silly mapToRegistry   spec: 'latest',
+597 silly mapToRegistry   type: 'tag' }
+598 silly mapToRegistry uri http://registry.cnpmjs.org/ionic-angular
+599 verbose addRemoteTarball http://registry.cnpmjs.org/ionic-angular/download/ionic-angular-2.0.0-beta.10.tgz not in flight; adding
+600 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/ionic-angular/download/ionic-angular-2.0.0-beta.10.tgz',
+600 verbose addRemoteTarball   'b9ef30e4dfade67383ecab7033b22e3a8f6c6970' ]
+601 silly addNameRange number 2 { name: 'ionic-gulp-fonts-copy',
+601 silly addNameRange   range: '>=1.0.0 <2.0.0',
+601 silly addNameRange   hasData: true }
+602 silly addNameRange versions [ 'ionic-gulp-fonts-copy', [ '1.0.0' ] ]
+603 silly addNamed ionic-gulp-fonts-copy@1.0.0
+604 verbose addNamed "1.0.0" is a plain semver version for ionic-gulp-fonts-copy
+605 silly cache afterAdd tslint-ionic-rules@0.0.3
+606 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\tslint-ionic-rules\0.0.3\package\package.json not in flight; writing
+607 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+608 silly addNameRange number 2 { name: 'ionic-gulp-sass-build',
+608 silly addNameRange   range: '>=1.0.0 <2.0.0',
+608 silly addNameRange   hasData: true }
+609 silly addNameRange versions [ 'ionic-gulp-sass-build', [ '1.0.0' ] ]
+610 silly addNamed ionic-gulp-sass-build@1.0.0
+611 verbose addNamed "1.0.0" is a plain semver version for ionic-gulp-sass-build
+612 silly mapToRegistry name run-sequence
+613 silly mapToRegistry using default registry
+614 silly mapToRegistry registry http://registry.cnpmjs.org/
+615 silly mapToRegistry data Result {
+615 silly mapToRegistry   raw: 'run-sequence',
+615 silly mapToRegistry   scope: null,
+615 silly mapToRegistry   name: 'run-sequence',
+615 silly mapToRegistry   rawSpec: '',
+615 silly mapToRegistry   spec: 'latest',
+615 silly mapToRegistry   type: 'tag' }
+616 silly mapToRegistry uri http://registry.cnpmjs.org/run-sequence
+617 verbose addRemoteTarball http://registry.cnpmjs.org/run-sequence/download/run-sequence-1.1.5.tgz not in flight; adding
+618 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/run-sequence/download/run-sequence-1.1.5.tgz',
+618 verbose addRemoteTarball   '556bd47eb47877349e36c9c582748897db7be4f7' ]
+619 silly mapToRegistry name @angular/core
+620 silly mapToRegistry scope (from package name) @angular
+621 verbose mapToRegistry no registry URL found in name for scope @angular
+622 silly mapToRegistry using default registry
+623 silly mapToRegistry registry http://registry.cnpmjs.org/
+624 silly mapToRegistry data Result {
+624 silly mapToRegistry   raw: '@angular/core',
+624 silly mapToRegistry   scope: '@angular',
+624 silly mapToRegistry   name: '@angular/core',
+624 silly mapToRegistry   rawSpec: '',
+624 silly mapToRegistry   spec: 'latest',
+624 silly mapToRegistry   type: 'tag' }
+625 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fcore
+626 verbose addRemoteTarball http://registry.cnpmjs.org/@angular/core/download/@angular/core-2.0.0-rc.3.tgz not in flight; adding
+627 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/@angular/core/download/@angular/core-2.0.0-rc.3.tgz',
+627 verbose addRemoteTarball   'cd13cd17172da0fdbe20d0f273519522f3146694' ]
+628 http 200 http://registry.cnpmjs.org/gulp-watch
+629 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+629 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+629 verbose headers   'content-type': 'application/json; charset=utf-8',
+629 verbose headers   'transfer-encoding': 'chunked',
+629 verbose headers   connection: 'keep-alive',
+629 verbose headers   'x-readtime': '95',
+629 verbose headers   'strict-transport-security': 'max-age=15768000',
+629 verbose headers   'content-encoding': 'gzip' }
+630 silly get cb [ 200,
+630 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+630 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+630 silly get     'content-type': 'application/json; charset=utf-8',
+630 silly get     'transfer-encoding': 'chunked',
+630 silly get     connection: 'keep-alive',
+630 silly get     'x-readtime': '95',
+630 silly get     'strict-transport-security': 'max-age=15768000',
+630 silly get     'content-encoding': 'gzip' } ]
+631 verbose get saving gulp-watch to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\gulp-watch\.cache.json
+632 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+633 info retry fetch attempt 1 at 10:36:45
+634 info attempt registry request try #1 at 10:36:45
+635 http fetch GET http://registry.cnpmjs.org/@angular/common/download/@angular/common-2.0.0-rc.3.tgz
+636 silly mapToRegistry name @angular/platform-browser
+637 silly mapToRegistry scope (from package name) @angular
+638 verbose mapToRegistry no registry URL found in name for scope @angular
+639 silly mapToRegistry using default registry
+640 silly mapToRegistry registry http://registry.cnpmjs.org/
+641 silly mapToRegistry data Result {
+641 silly mapToRegistry   raw: '@angular/platform-browser',
+641 silly mapToRegistry   scope: '@angular',
+641 silly mapToRegistry   name: '@angular/platform-browser',
+641 silly mapToRegistry   rawSpec: '',
+641 silly mapToRegistry   spec: 'latest',
+641 silly mapToRegistry   type: 'tag' }
+642 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fplatform-browser
+643 verbose addRemoteTarball http://registry.cnpmjs.org/@angular/platform-browser/download/@angular/platform-browser-2.0.0-rc.3.tgz not in flight; adding
+644 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/@angular/platform-browser/download/@angular/platform-browser-2.0.0-rc.3.tgz',
+644 verbose addRemoteTarball   '8c3892cddd41018c3fb8316c7445910716e03f33' ]
+645 info retry fetch attempt 1 at 10:36:45
+646 info attempt registry request try #1 at 10:36:45
+647 http fetch GET http://registry.cnpmjs.org/ionic-angular/download/ionic-angular-2.0.0-beta.10.tgz
+648 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-scripts-copy\2.0.1\package\package.json written
+649 http fetch 200 http://registry.cnpmjs.org/ionicons/download/ionicons-3.0.0.tgz
+650 info retry fetch attempt 1 at 10:36:45
+651 info attempt registry request try #1 at 10:36:45
+652 http fetch GET http://registry.cnpmjs.org/run-sequence/download/run-sequence-1.1.5.tgz
+653 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\tslint-ionic-rules\0.0.3\package\package.json written
+654 silly cache afterAdd ionic-gulp-tslint@1.1.0
+655 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-tslint\1.1.0\package\package.json not in flight; writing
+656 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+657 http fetch 200 http://registry.cnpmjs.org/ionic-native/download/ionic-native-1.3.2.tgz
+658 silly mapToRegistry name @angular/compiler
+659 silly mapToRegistry scope (from package name) @angular
+660 verbose mapToRegistry no registry URL found in name for scope @angular
+661 silly mapToRegistry using default registry
+662 silly mapToRegistry registry http://registry.cnpmjs.org/
+663 silly mapToRegistry data Result {
+663 silly mapToRegistry   raw: '@angular/compiler',
+663 silly mapToRegistry   scope: '@angular',
+663 silly mapToRegistry   name: '@angular/compiler',
+663 silly mapToRegistry   rawSpec: '',
+663 silly mapToRegistry   spec: 'latest',
+663 silly mapToRegistry   type: 'tag' }
+664 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fcompiler
+665 verbose addRemoteTarball http://registry.cnpmjs.org/@angular/compiler/download/@angular/compiler-2.0.0-rc.3.tgz not in flight; adding
+666 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/@angular/compiler/download/@angular/compiler-2.0.0-rc.3.tgz',
+666 verbose addRemoteTarball   'bba3da8419bec5103314326961971693ed1e1ee0' ]
+667 info retry fetch attempt 1 at 10:36:45
+668 info attempt registry request try #1 at 10:36:45
+669 http fetch GET http://registry.cnpmjs.org/@angular/core/download/@angular/core-2.0.0-rc.3.tgz
+670 silly cache afterAdd ionic-gulp-fonts-copy@1.0.0
+671 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-fonts-copy\1.0.0\package\package.json not in flight; writing
+672 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+673 silly addNameRange number 2 { name: 'zone.js', range: '>=0.6.12 <0.7.0', hasData: true }
+674 silly addNameRange versions [ 'zone.js',
+674 silly addNameRange   [ '0.6.12',
+674 silly addNameRange     '0.6.11',
+674 silly addNameRange     '0.6.10',
+674 silly addNameRange     '0.6.9',
+674 silly addNameRange     '0.6.8',
+674 silly addNameRange     '0.6.6',
+674 silly addNameRange     '0.6.5',
+674 silly addNameRange     '0.6.4',
+674 silly addNameRange     '0.6.3',
+674 silly addNameRange     '0.6.2',
+674 silly addNameRange     '0.6.1',
+674 silly addNameRange     '0.6.0',
+674 silly addNameRange     '0.5.15',
+674 silly addNameRange     '0.5.14',
+674 silly addNameRange     '0.5.13',
+674 silly addNameRange     '0.5.12',
+674 silly addNameRange     '0.5.11',
+674 silly addNameRange     '0.5.10',
+674 silly addNameRange     '0.5.9',
+674 silly addNameRange     '0.5.8',
+674 silly addNameRange     '0.5.7',
+674 silly addNameRange     '0.5.6',
+674 silly addNameRange     '0.5.5',
+674 silly addNameRange     '0.5.4',
+674 silly addNameRange     '0.5.3',
+674 silly addNameRange     '0.5.2',
+674 silly addNameRange     '0.5.1',
+674 silly addNameRange     '0.5.0',
+674 silly addNameRange     '0.4.4',
+674 silly addNameRange     '0.4.3',
+674 silly addNameRange     '0.4.2',
+674 silly addNameRange     '0.4.1',
+674 silly addNameRange     '0.4.0',
+674 silly addNameRange     '0.3.0',
+674 silly addNameRange     '0.2.4',
+674 silly addNameRange     '0.2.2',
+674 silly addNameRange     '0.2.3',
+674 silly addNameRange     '0.2.1',
+674 silly addNameRange     '0.2.0',
+674 silly addNameRange     '0.1.1',
+674 silly addNameRange     '0.1.0' ] ]
+675 silly addNamed zone.js@0.6.12
+676 verbose addNamed "0.6.12" is a plain semver version for zone.js
+677 silly cache afterAdd ionic-gulp-sass-build@1.0.0
+678 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-sass-build\1.0.0\package\package.json not in flight; writing
+679 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+680 silly mapToRegistry name @angular/http
+681 silly mapToRegistry scope (from package name) @angular
+682 verbose mapToRegistry no registry URL found in name for scope @angular
+683 silly mapToRegistry using default registry
+684 silly mapToRegistry registry http://registry.cnpmjs.org/
+685 silly mapToRegistry data Result {
+685 silly mapToRegistry   raw: '@angular/http',
+685 silly mapToRegistry   scope: '@angular',
+685 silly mapToRegistry   name: '@angular/http',
+685 silly mapToRegistry   rawSpec: '',
+685 silly mapToRegistry   spec: 'latest',
+685 silly mapToRegistry   type: 'tag' }
+686 silly mapToRegistry uri http://registry.cnpmjs.org/@angular%2fhttp
+687 verbose addRemoteTarball http://registry.cnpmjs.org/@angular/http/download/@angular/http-2.0.0-rc.3.tgz not in flight; adding
+688 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/@angular/http/download/@angular/http-2.0.0-rc.3.tgz',
+688 verbose addRemoteTarball   'f05947588e8bb4949dbd42ea99fb6b8ce2237496' ]
+689 silly addNameRange number 2 { name: 'ionic-gulp-html-copy',
+689 silly addNameRange   range: '>=1.0.0 <2.0.0',
+689 silly addNameRange   hasData: true }
+690 silly addNameRange versions [ 'ionic-gulp-html-copy', [ '1.0.0' ] ]
+691 silly addNamed ionic-gulp-html-copy@1.0.0
+692 verbose addNamed "1.0.0" is a plain semver version for ionic-gulp-html-copy
+693 info retry fetch attempt 1 at 10:36:45
+694 info attempt registry request try #1 at 10:36:45
+695 http fetch GET http://registry.cnpmjs.org/@angular/platform-browser/download/@angular/platform-browser-2.0.0-rc.3.tgz
+696 http 200 http://registry.cnpmjs.org/gulp
+697 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+697 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+697 verbose headers   'content-type': 'application/json; charset=utf-8',
+697 verbose headers   'transfer-encoding': 'chunked',
+697 verbose headers   connection: 'keep-alive',
+697 verbose headers   'x-readtime': '165',
+697 verbose headers   'strict-transport-security': 'max-age=15768000',
+697 verbose headers   'content-encoding': 'gzip' }
+698 silly get cb [ 200,
+698 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+698 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+698 silly get     'content-type': 'application/json; charset=utf-8',
+698 silly get     'transfer-encoding': 'chunked',
+698 silly get     connection: 'keep-alive',
+698 silly get     'x-readtime': '165',
+698 silly get     'strict-transport-security': 'max-age=15768000',
+698 silly get     'content-encoding': 'gzip' } ]
+699 verbose get saving gulp to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\gulp\.cache.json
+700 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+701 silly mapToRegistry name gulp-watch
+702 silly mapToRegistry using default registry
+703 silly mapToRegistry registry http://registry.cnpmjs.org/
+704 silly mapToRegistry data Result {
+704 silly mapToRegistry   raw: 'gulp-watch',
+704 silly mapToRegistry   scope: null,
+704 silly mapToRegistry   name: 'gulp-watch',
+704 silly mapToRegistry   rawSpec: '',
+704 silly mapToRegistry   spec: 'latest',
+704 silly mapToRegistry   type: 'tag' }
+705 silly mapToRegistry uri http://registry.cnpmjs.org/gulp-watch
+706 verbose addRemoteTarball http://registry.cnpmjs.org/gulp-watch/download/gulp-watch-4.3.5.tgz not in flight; adding
+707 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/gulp-watch/download/gulp-watch-4.3.5.tgz',
+707 verbose addRemoteTarball   '3a94584d653f5c7f1aadd8d7791174b5fab048af' ]
+708 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-tslint\1.1.0\package\package.json written
+709 http fetch 200 http://registry.cnpmjs.org/ionic-gulp-browserify-typescript/download/ionic-gulp-browserify-typescript-2.0.0.tgz
+710 info retry fetch attempt 1 at 10:36:45
+711 info attempt registry request try #1 at 10:36:45
+712 http fetch GET http://registry.cnpmjs.org/@angular/compiler/download/@angular/compiler-2.0.0-rc.3.tgz
+713 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-sass-build\1.0.0\package\package.json written
+714 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-fonts-copy\1.0.0\package\package.json written
+715 info retry fetch attempt 1 at 10:36:45
+716 info attempt registry request try #1 at 10:36:45
+717 http fetch GET http://registry.cnpmjs.org/@angular/http/download/@angular/http-2.0.0-rc.3.tgz
+718 info retry fetch attempt 1 at 10:36:45
+719 info attempt registry request try #1 at 10:36:45
+720 http fetch GET http://registry.cnpmjs.org/gulp-watch/download/gulp-watch-4.3.5.tgz
+721 silly cache afterAdd zone.js@0.6.12
+722 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\zone.js\0.6.12\package\package.json not in flight; writing
+723 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+724 silly cache afterAdd ionic-gulp-html-copy@1.0.0
+725 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-html-copy\1.0.0\package\package.json not in flight; writing
+726 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+727 silly fetchAndShaCheck shasum 4bfb5e4a09a6acfb56ce43ae8dfd654c0a6f6b50
+728 info retry will retry, error on last attempt: Error: read ECONNRESET
+729 info retry will retry, error on last attempt: Error: read ECONNRESET
+730 http fetch 200 http://registry.cnpmjs.org/rxjs/download/rxjs-5.0.0-beta.6.tgz
+731 silly mapToRegistry name gulp
+732 silly mapToRegistry using default registry
+733 silly mapToRegistry registry http://registry.cnpmjs.org/
+734 silly mapToRegistry data Result {
+734 silly mapToRegistry   raw: 'gulp',
+734 silly mapToRegistry   scope: null,
+734 silly mapToRegistry   name: 'gulp',
+734 silly mapToRegistry   rawSpec: '',
+734 silly mapToRegistry   spec: 'latest',
+734 silly mapToRegistry   type: 'tag' }
+735 silly mapToRegistry uri http://registry.cnpmjs.org/gulp
+736 verbose addRemoteTarball http://registry.cnpmjs.org/gulp/download/gulp-3.9.1.tgz not in flight; adding
+737 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/gulp/download/gulp-3.9.1.tgz',
+737 verbose addRemoteTarball   '571ce45928dd40af6514fc4011866016c13845b4' ]
+738 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\ionic-gulp-browserify-typescript\download\ionic-gulp-browserify-typescript-2.0.0.tgz not in flight; adding
+739 verbose addTmpTarball already have metadata; skipping unpack for ionic-gulp-browserify-typescript@2.0.0
+740 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+741 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\zone.js\0.6.12\package\package.json written
+742 http 200 http://registry.cnpmjs.org/es6-shim
+743 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+743 verbose headers   date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+743 verbose headers   'content-type': 'application/json; charset=utf-8',
+743 verbose headers   'transfer-encoding': 'chunked',
+743 verbose headers   connection: 'keep-alive',
+743 verbose headers   'x-readtime': '297',
+743 verbose headers   'strict-transport-security': 'max-age=15768000',
+743 verbose headers   'content-encoding': 'gzip' }
+744 silly get cb [ 200,
+744 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+744 silly get     date: 'Sat, 30 Jul 2016 02:36:40 GMT',
+744 silly get     'content-type': 'application/json; charset=utf-8',
+744 silly get     'transfer-encoding': 'chunked',
+744 silly get     connection: 'keep-alive',
+744 silly get     'x-readtime': '297',
+744 silly get     'strict-transport-security': 'max-age=15768000',
+744 silly get     'content-encoding': 'gzip' } ]
+745 verbose get saving es6-shim to C:\Users\a\AppData\Roaming\npm-cache\registry.cnpmjs.org\es6-shim\.cache.json
+746 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+747 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-html-copy\1.0.0\package\package.json written
+748 http fetch 200 http://registry.cnpmjs.org/del/download/del-2.2.0.tgz
+749 http fetch 200 http://registry.cnpmjs.org/ionic-angular/download/ionic-angular-2.0.0-beta.10.tgz
+750 info retry fetch attempt 1 at 10:36:45
+751 info attempt registry request try #1 at 10:36:45
+752 http fetch GET http://registry.cnpmjs.org/gulp/download/gulp-3.9.1.tgz
+753 silly fetchAndShaCheck shasum 40a8056f848734769a163f84c0c83f5e214da6e2
+754 silly fetchAndShaCheck shasum 9a50f04bf37325e283b4f44e985336c252456bd5
+755 http fetch 200 http://registry.cnpmjs.org/@angular/platform-browser-dynamic/download/@angular/platform-browser-dynamic-2.0.0-rc.3.tgz
+756 http fetch 200 http://registry.cnpmjs.org/@angular/platform-browser/download/@angular/platform-browser-2.0.0-rc.3.tgz
+757 http fetch 200 http://registry.cnpmjs.org/run-sequence/download/run-sequence-1.1.5.tgz
+758 silly cache afterAdd ionic-gulp-browserify-typescript@2.0.0
+759 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-browserify-typescript\2.0.0\package\package.json not in flight; writing
+760 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+761 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\del\download\del-2.2.0.tgz not in flight; adding
+762 verbose addTmpTarball already have metadata; skipping unpack for del@2.2.0
+763 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+764 http fetch 200 http://registry.cnpmjs.org/@angular/core/download/@angular/core-2.0.0-rc.3.tgz
+765 silly addNameRange number 2 { name: 'es6-shim', range: '>=0.35.0 <0.36.0', hasData: true }
+766 silly addNameRange versions [ 'es6-shim',
+766 silly addNameRange   [ '0.35.1',
+766 silly addNameRange     '0.35.0',
+766 silly addNameRange     '0.34.4',
+766 silly addNameRange     '0.34.3',
+766 silly addNameRange     '0.34.2',
+766 silly addNameRange     '0.34.1',
+766 silly addNameRange     '0.34.0',
+766 silly addNameRange     '0.33.13',
+766 silly addNameRange     '0.33.12',
+766 silly addNameRange     '0.33.11',
+766 silly addNameRange     '0.33.10',
+766 silly addNameRange     '0.33.9',
+766 silly addNameRange     '0.33.8',
+766 silly addNameRange     '0.33.7',
+766 silly addNameRange     '0.33.6',
+766 silly addNameRange     '0.33.5',
+766 silly addNameRange     '0.33.4',
+766 silly addNameRange     '0.33.3',
+766 silly addNameRange     '0.33.2',
+766 silly addNameRange     '0.33.1',
+766 silly addNameRange     '0.33.0',
+766 silly addNameRange     '0.32.2',
+766 silly addNameRange     '0.32.1',
+766 silly addNameRange     '0.32.0',
+766 silly addNameRange     '0.31.3',
+766 silly addNameRange     '0.31.2',
+766 silly addNameRange     '0.31.1',
+766 silly addNameRange     '0.31.0',
+766 silly addNameRange     '0.30.0',
+766 silly addNameRange     '0.29.0',
+766 silly addNameRange     '0.28.1',
+766 silly addNameRange     '0.27.1',
+766 silly addNameRange     '0.26.1',
+766 silly addNameRange     '0.26.0',
+766 silly addNameRange     '0.25.3',
+766 silly addNameRange     '0.25.2',
+766 silly addNameRange     '0.25.1',
+766 silly addNameRange     '0.25.0',
+766 silly addNameRange     '0.24.0',
+766 silly addNameRange     '0.23.0',
+766 silly addNameRange     '0.22.2',
+766 silly addNameRange     '0.22.1',
+766 silly addNameRange     '0.22.0',
+766 silly addNameRange     '0.21.1',
+766 silly addNameRange     '0.21.0',
+766 silly addNameRange     '0.20.4',
+766 silly addNameRange     '0.20.3',
+766 silly addNameRange     '0.20.2',
+766 silly addNameRange     '0.20.1',
+766 silly addNameRange     '0.20.0',
+766 silly addNameRange     '0.19.2',
+766 silly addNameRange     '0.19.1',
+766 silly addNameRange     '0.19.0',
+766 silly addNameRange     '0.18.0',
+766 silly addNameRange     '0.17.0',
+766 silly addNameRange     '0.16.0',
+766 silly addNameRange     '0.15.1',
+766 silly addNameRange     '0.15.0',
+766 silly addNameRange     '0.14.0',
+766 silly addNameRange     '0.13.0',
+766 silly addNameRange     '0.12.0',
+766 silly addNameRange     '0.11.1',
+766 silly addNameRange     '0.11.0',
+766 silly addNameRange     '0.10.1',
+766 silly addNameRange     '0.10.0',
+766 silly addNameRange     '0.9.3',
+766 silly addNameRange     '0.9.2',
+766 silly addNameRange     '0.9.1',
+766 silly addNameRange     '0.9.0',
+766 silly addNameRange     '0.8.0',
+766 silly addNameRange     '0.7.0',
+766 silly addNameRange     '0.6.0',
+766 silly addNameRange     '0.5.3',
+766 silly addNameRange     '0.5.2',
+766 silly addNameRange     '0.5.1',
+766 silly addNameRange     '0.5.0',
+766 silly addNameRange     '0.4.1',
+766 silly addNameRange     '0.4.0',
+766 silly addNameRange     '0.3.1',
+766 silly addNameRange     '0.3.0',
+766 silly addNameRange     '0.2.1',
+766 silly addNameRange     '0.2.0',
+766 silly addNameRange     '0.1.0' ] ]
+767 silly addNamed es6-shim@0.35.1
+768 verbose addNamed "0.35.1" is a plain semver version for es6-shim
+769 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-gulp-browserify-typescript\2.0.0\package\package.json written
+770 silly fetchAndShaCheck shasum 556bd47eb47877349e36c9c582748897db7be4f7
+771 http fetch 200 http://registry.cnpmjs.org/gulp-watch/download/gulp-watch-4.3.5.tgz
+772 http fetch 200 http://registry.cnpmjs.org/@angular/common/download/@angular/common-2.0.0-rc.3.tgz
+773 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\run-sequence\download\run-sequence-1.1.5.tgz not in flight; adding
+774 verbose addTmpTarball already have metadata; skipping unpack for run-sequence@1.1.5
+775 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+776 silly cache afterAdd del@2.2.0
+777 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\del\2.2.0\package\package.json not in flight; writing
+778 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+779 silly fetchAndShaCheck shasum 3a94584d653f5c7f1aadd8d7791174b5fab048af
+780 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\gulp-watch\download\gulp-watch-4.3.5.tgz not in flight; adding
+781 verbose addTmpTarball already have metadata; skipping unpack for gulp-watch@4.3.5
+782 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+783 silly cache afterAdd run-sequence@1.1.5
+784 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\run-sequence\1.1.5\package\package.json not in flight; writing
+785 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+786 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\del\2.2.0\package\package.json written
+787 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\run-sequence\1.1.5\package\package.json written
+788 http fetch 200 http://registry.cnpmjs.org/@angular/http/download/@angular/http-2.0.0-rc.3.tgz
+789 silly fetchAndShaCheck shasum badd6e2b1d2bf710182a321a8f3fbc967ef6d5d0
+790 silly cache afterAdd es6-shim@0.35.1
+791 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\es6-shim\0.35.1\package\package.json not in flight; writing
+792 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+793 silly cache afterAdd gulp-watch@4.3.5
+794 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\gulp-watch\4.3.5\package\package.json not in flight; writing
+795 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+796 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\_40angular\platform-browser-dynamic\download\_40angular\platform-browser-dynamic-2.0.0-rc.3.tgz not in flight; adding
+797 verbose addTmpTarball already have metadata; skipping unpack for @angular/platform-browser-dynamic@2.0.0-rc.3
+798 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+799 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\es6-shim\0.35.1\package\package.json written
+800 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\gulp-watch\4.3.5\package\package.json written
+801 http fetch 200 http://registry.cnpmjs.org/gulp/download/gulp-3.9.1.tgz
+802 silly fetchAndShaCheck shasum 571ce45928dd40af6514fc4011866016c13845b4
+803 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\gulp\download\gulp-3.9.1.tgz not in flight; adding
+804 verbose addTmpTarball already have metadata; skipping unpack for gulp@3.9.1
+805 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+806 silly cache afterAdd gulp@3.9.1
+807 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+808 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+809 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+810 http fetch 200 http://registry.cnpmjs.org/@angular/compiler/download/@angular/compiler-2.0.0-rc.3.tgz
+811 silly cache afterAdd @angular/platform-browser-dynamic@2.0.0-rc.3
+812 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\platform-browser-dynamic\2.0.0-rc.3\package\package.json not in flight; writing
+813 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+814 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\platform-browser-dynamic\2.0.0-rc.3\package\package.json written
+815 silly fetchAndShaCheck shasum 8c3892cddd41018c3fb8316c7445910716e03f33
+816 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\_40angular\platform-browser\download\_40angular\platform-browser-2.0.0-rc.3.tgz not in flight; adding
+817 verbose addTmpTarball already have metadata; skipping unpack for @angular/platform-browser@2.0.0-rc.3
+818 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+819 silly fetchAndShaCheck shasum f05947588e8bb4949dbd42ea99fb6b8ce2237496
+820 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\_40angular\http\download\_40angular\http-2.0.0-rc.3.tgz not in flight; adding
+821 verbose addTmpTarball already have metadata; skipping unpack for @angular/http@2.0.0-rc.3
+822 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+823 silly cache afterAdd @angular/http@2.0.0-rc.3
+824 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.3\package\package.json not in flight; writing
+825 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+826 silly cache afterAdd @angular/platform-browser@2.0.0-rc.3
+827 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\platform-browser\2.0.0-rc.3\package\package.json not in flight; writing
+828 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+829 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.3\package\package.json written
+830 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\platform-browser\2.0.0-rc.3\package\package.json written
+831 silly fetchAndShaCheck shasum 1e5680ff0858aee51b204d5ce5a024ca182ba852
+832 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\_40angular\common\download\_40angular\common-2.0.0-rc.3.tgz not in flight; adding
+833 verbose addTmpTarball already have metadata; skipping unpack for @angular/common@2.0.0-rc.3
+834 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+835 silly fetchAndShaCheck shasum 40b8daf4fd7a31150bd002160f66496e22a98c3c
+836 silly cache afterAdd @angular/common@2.0.0-rc.3
+837 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\common\2.0.0-rc.3\package\package.json not in flight; writing
+838 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+839 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\ionicons\download\ionicons-3.0.0.tgz not in flight; adding
+840 verbose addTmpTarball already have metadata; skipping unpack for ionicons@3.0.0
+841 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+842 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\common\2.0.0-rc.3\package\package.json written
+843 silly cache afterAdd ionicons@3.0.0
+844 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionicons\3.0.0\package\package.json not in flight; writing
+845 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+846 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionicons\3.0.0\package\package.json written
+847 silly fetchAndShaCheck shasum cb6dc46d6ddfedfeefc9b15dafd09c34a4370d23
+848 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\rxjs\download\rxjs-5.0.0-beta.6.tgz not in flight; adding
+849 verbose addTmpTarball already have metadata; skipping unpack for rxjs@5.0.0-beta.6
+850 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+851 silly fetchAndShaCheck shasum cd13cd17172da0fdbe20d0f273519522f3146694
+852 silly cache afterAdd rxjs@5.0.0-beta.6
+853 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\rxjs\5.0.0-beta.6\package\package.json not in flight; writing
+854 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+855 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\_40angular\core\download\_40angular\core-2.0.0-rc.3.tgz not in flight; adding
+856 verbose addTmpTarball already have metadata; skipping unpack for @angular/core@2.0.0-rc.3
+857 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+858 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\rxjs\5.0.0-beta.6\package\package.json written
+859 silly cache afterAdd @angular/core@2.0.0-rc.3
+860 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\core\2.0.0-rc.3\package\package.json not in flight; writing
+861 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+862 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\core\2.0.0-rc.3\package\package.json written
+863 silly fetchAndShaCheck shasum bba3da8419bec5103314326961971693ed1e1ee0
+864 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\_40angular\compiler\download\_40angular\compiler-2.0.0-rc.3.tgz not in flight; adding
+865 verbose addTmpTarball already have metadata; skipping unpack for @angular/compiler@2.0.0-rc.3
+866 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+867 silly cache afterAdd @angular/compiler@2.0.0-rc.3
+868 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\compiler\2.0.0-rc.3\package\package.json not in flight; writing
+869 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+870 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\@angular\compiler\2.0.0-rc.3\package\package.json written
+871 silly fetchAndShaCheck shasum b9ef30e4dfade67383ecab7033b22e3a8f6c6970
+872 verbose addTmpTarball C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\ionic-angular\download\ionic-angular-2.0.0-beta.10.tgz not in flight; adding
+873 verbose addTmpTarball already have metadata; skipping unpack for ionic-angular@2.0.0-beta.10
+874 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+875 silly cache afterAdd ionic-angular@2.0.0-beta.10
+876 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-angular\2.0.0-beta.10\package\package.json not in flight; writing
+877 verbose correctMkdir C:\Users\a\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+878 verbose afterAdd C:\Users\a\AppData\Roaming\npm-cache\ionic-angular\2.0.0-beta.10\package\package.json written
+879 verbose stack Error: shasum check failed for C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\ionic-native\download\ionic-native-1.3.2.tgz
+879 verbose stack Expected: 40a8056f848734769a163f84c0c83f5e214da6e2
+879 verbose stack Actual:   2607034f76ad50d8a19c456e0a7f8b32d3991476
+879 verbose stack From:     http://registry.cnpmjs.org/ionic-native/download/ionic-native-1.3.2.tgz
+879 verbose stack     at D:\Node.js\node_modules\npm\node_modules\sha\index.js:25:8
+879 verbose stack     at ReadStream.<anonymous> (D:\Node.js\node_modules\npm\node_modules\sha\index.js:72:7)
+879 verbose stack     at emitNone (events.js:72:20)
+879 verbose stack     at ReadStream.emit (events.js:166:7)
+879 verbose stack     at endReadableNT (_stream_readable.js:913:12)
+879 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+879 verbose stack     at process._tickCallback (node.js:356:17)
+880 verbose cwd D:\ionic\happyreading\happyreading
+881 error Windows_NT 6.1.7601
+882 error argv "D:\\Node.js\\node.exe" "D:\\Node.js\\node_modules\\npm\\bin\\npm-cli.js" "install"
+883 error node v4.4.4
+884 error npm  v2.15.1
+885 error shasum check failed for C:\Users\a\AppData\Local\Temp\npm-11012-b40a7a08\registry.cnpmjs.org\ionic-native\download\ionic-native-1.3.2.tgz
+885 error Expected: 40a8056f848734769a163f84c0c83f5e214da6e2
+885 error Actual:   2607034f76ad50d8a19c456e0a7f8b32d3991476
+885 error From:     http://registry.cnpmjs.org/ionic-native/download/ionic-native-1.3.2.tgz
+886 error If you need help, you may report this error at:
+886 error     <https://github.com/npm/npm/issues>
+887 verbose exit [ 1, true ]
