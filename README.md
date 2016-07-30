@@ -23,3 +23,12 @@ To run your app, cd into the directory that was created and then run the ionic s
     $ cd happyreading  
     $ ionic serve  
 
+###Building a platform for android  
+
+    $ionic platform add android
+    
+###Building for Android
+
+    $ionic build android
+    
+    
