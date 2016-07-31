@@ -1,22 +1,20 @@
 <ion-header>                                                                 <!--navbar组件-->
   <ion-navbar>
-    <button menuToggle>                                                      <!--调用menuToggle组件-->
-      <ion-icon name="menu"></ion-icon>
-    </button>
     <ion-title>
-      Contact
+      用户登录
     </ion-title>
   </ion-navbar>
-
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-left></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
-</ion-content>
+<ion-content padding class="contact">
+<ion-item>
+    <ion-label>用户名</ion-label>
+    <ion-input type="text" placeholder="请输入用户名" [(ngModel)]="user.username"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>密码</ion-label>
+    <ion-input type="password" placeholder="请输入密码" [(ngModel)]="user.password"></ion-input>
+  </ion-item>
+  <button block (click)="showFill()">确定</button>
+  </ion-content>
 

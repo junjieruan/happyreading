@@ -1,0 +1,17 @@
+<ion-header>                                                                 <!--navbar组件-->
+  <ion-navbar>
+    <button menuToggle>                                                      <!--调用menuToggle组件-->
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      用户中心
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="usercenter">
+ <ion-avatar class="Aligncenter">                                        <!--图片设置样式居中显示-->
+        <img src="{{user.headface}}">
+ </ion-avatar>
+ <button block (click)="logout()">注销</button>                                     
+</ion-content> 

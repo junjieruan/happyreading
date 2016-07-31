@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {HomePage} from '../home/home';
 import {AboutPage} from '../about/about';
-import {ContactPage} from '../contact/contact';
+import {UserCenter} from '../contact/usercenter';
 
 import {Tabs} from 'ionic-angular';
 
@@ -23,10 +23,10 @@ export class TabsPage {
     // should be each tab's root Page
     this.tab1Root = HomePage;
     this.tab2Root = AboutPage;
-    this.tab3Root = ContactPage;
+    this.tab3Root = UserCenter;
   }
 
   ionViewDidEnter(){                       //进入完成后，动态选定某个tabs
-    this.tabRef.select(1);
+    this.tabRef.select(2);
   }
 }
