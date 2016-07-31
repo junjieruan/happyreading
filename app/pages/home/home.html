@@ -1,17 +1,30 @@
-<ion-header>
+<ion-header>                                                                 <!--navbar组件-->
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <button menuToggle>                                                      <!--调用menuToggle组件-->
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      我的好友
+    </ion-title>
   </ion-navbar>
-</ion-header>
 
+</ion-header>
 <ion-content padding class="home">
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>app/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+   <ion-list>
+       <ion-item-sliding *ngFor="let client of clients">
+         <ion-item (click)="itemClick($event,client)">
+            <ion-avatar item-left>
+                <img src="images/{{client.clientid}}.jpg">
+            </ion-avatar>
+            <h2 textAlignRight>{{client.clientname}}</h2>
+            <p textAlignRight>{{client.clienttext}}</p>
+         </ion-item>
+         <ion-item-options>
+             <button danger (click)="removeClient(client)">
+              <ion-icon name="trash"></ion-icon>
+              删除
+             </button>
+         </ion-item-options>
+       </ion-item-sliding>
+   </ion-list>
 </ion-content>

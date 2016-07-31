@@ -1,0 +1,15 @@
+<ion-menu [content]="content">                                             
+<!--侧边栏内容，menucontroller组件控制展示,放在app.html中，不用放在某个tab中，导致侧边栏出现时，tab仍然不收缩-->    
+    <ion-toolbar>
+        <ion-title>我的菜单</ion-title>
+    </ion-toolbar>
+
+    <ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">   <!--获取pages数组中信息，增加点击事件-->
+      	   {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-nav id="nav" [root]="rootPage" #content swipe-back-enabled="false"></ion-nav>

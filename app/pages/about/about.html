@@ -1,10 +1,26 @@
-<ion-header>
+<ion-header>                                                                 <!--navbar组件-->
   <ion-navbar>
+    <button menuToggle>                                                      <!--调用menuToggle组件-->
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <ion-title>
-      About
+      悦读
     </ion-title>
+    <ion-buttons end>
+      <button (click)="openModal()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
-</ion-header>
 
-<ion-content padding class="about">
+</ion-header>
+ 
+
+ 
+<ion-content class="card-background-page">                        <!--card组件展示-->
+  <ion-card *ngFor="let contact of contacts">
+    <img src="images/{{contact.contactid}}.jpg"/>
+    <div class="card-title">{{contact.contactname}}</div>
+    <div class="card-subtitle">{{contact.contactwriter}}</div>
+  </ion-card>
 </ion-content>
