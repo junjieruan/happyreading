@@ -1,0 +1,28 @@
+<ion-header>                                                                 <!--navbar组件-->
+  <ion-navbar>
+    <ion-title>
+      用户注册
+    </ion-title>
+    <ion-buttons start>
+    <button (click)="dismiss()">取消</button>
+  </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="register">
+   <ion-avatar class="Aligncenter">
+       <img src="{{register.Rheadface}}">
+   </ion-avatar>
+   <button small outline fab-center (click)="UploadImg()">选择图片</button>
+  <ion-list>
+  <ion-item>
+    <ion-label primary>用户名</ion-label>
+    <ion-input placeholder="请输入3位数用户名" [(ngModel)]="register.Rusername"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label primary>密码</ion-label>
+    <ion-input placeholder="输入4位数密码" [(ngModel)]="register.Rpassword"></ion-input>
+  </ion-item>
+  </ion-list>
+  <button block (click)="registering()">点击注册</button>
+</ion-content>

@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {NavController,ViewController,Toast,Modal,Loading,Storage, LocalStorage} from 'ionic-angular';
+import {Register} from'../register/register';
 
 @Component({
   templateUrl: 'build/pages/contact/contact.html'
@@ -32,21 +33,26 @@ export class ContactPage {
 		  });
 		  this.navCtrl.present(loading);
 
-          if(this.user.password=="1"){                           //密码正确，loading显示，隐藏本页面
+          if(this.user.password=="1234"){                           //密码正确，loading显示，隐藏本页面
           	 this.local = new Storage(LocalStorage);             //localstorage存储登陆信息
-          	 this.local.set('username',this.user.username);
    			 this.local.set('Logined', 'true');
              setTimeout(() => {
+             this.viewCtrl.dismiss(this.user.username);                 //username通过dismiss传到用户中心，控制登录信息同步刷新
 			    loading.dismiss();
-			  }, 3000);
-			this.viewCtrl.dismiss(this.user.username);                 //username通过dismiss传到用户中心
+			  }, 5000);
+			
           }else{
              let toast = Toast.create({                          //密码错误
-			    message: '密码错误',
-			    duration: 3000,
+    			    message: '密码错误',
+    			    duration: 3000,
 			  });
 			  this.navCtrl.present(toast);
           }
       }
+  }
+
+  openRegisterPage(){
+      let modal = Modal.create(Register);
+      this.navCtrl.present(modal);
   }
 }

@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {HomePage} from '../home/home';
 import {AboutPage} from '../about/about';
-import {UserCenter} from '../contact/usercenter';
+import {UserCenter} from '../usercenter/usercenter';
 
 import {Tabs} from 'ionic-angular';
 

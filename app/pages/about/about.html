@@ -18,8 +18,8 @@
 
  
 <ion-content class="card-background-page">                        <!--card组件展示-->
-  <ion-card *ngFor="let contact of contacts">
-    <img src="images/{{contact.contactid}}.jpg"/>
+  <ion-card *ngFor="let contact of contacts" (click)="Actionsheet($event,contact)">
+    <img src="{{contact.contactid}}"/>
     <div class="card-title">{{contact.contactname}}</div>
     <div class="card-subtitle">{{contact.contactwriter}}</div>
   </ion-card>

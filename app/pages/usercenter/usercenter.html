@@ -13,5 +13,6 @@
  <ion-avatar class="Aligncenter">                                        <!--图片设置样式居中显示-->
         <img src="{{user.headface}}">
  </ion-avatar>
- <button block (click)="logout()">注销</button>                                     
+ <button small clear class="welcome">{{user.username}}，欢迎登录！</button>
+ <button block (click)="logout()">注销</button>                                  
 </ion-content> 

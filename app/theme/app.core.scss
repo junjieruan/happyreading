@@ -13,12 +13,18 @@
 
 @import "../pages/home/home";
 
-@import "../pages/contact/usercenter";
+@import "../pages/usercenter/usercenter";
+
+@import "../pages/register/register";
 
 .textAlignRight{
-	text-aligh:right;
+	text-align:right;
 }
 
 .Aligncenter{
 	text-align:center;
+}
+
+.marginTop{
+	margin-top:10px;
 }

@@ -16,5 +16,10 @@
     <ion-input type="password" placeholder="请输入密码" [(ngModel)]="user.password"></ion-input>
   </ion-item>
   <button block (click)="showFill()">确定</button>
+  <ion-row>
+    <ion-col class="textAlignRight marginTop">
+      <button outline (click)="openRegisterPage()">还没有账号？马上注册</button>
+    </ion-col>
+  </ion-row>
   </ion-content>
 
