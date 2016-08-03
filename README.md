@@ -16,11 +16,11 @@
     $ npm install -g ionic@beta  
     
     
- To create your project  into the local directory:  
+ Create your project:  
  
     $ ionic start happyreading --v2
     
-If ionic start make some error,you can install the cnpm in local directory:
+If ionic start happen error,cd into the directory ang Install the cnpm:
 
     $cnpm install;
     
@@ -30,18 +30,11 @@ If ionic start make some error,you can install the cnpm in local directory:
     $ ionic serve  
 
  
-###Building a platform for android  
+###Building a platform for android/ios
 
-    $ionic platform add android
+    $ionic platform add android/ios
    
-###Building for Android  
+###Building for Android/ios
 
-    $ionic build android
+    $ionic build android/ios
 
-###Building a platform for Ios 
-
-    $ionic platform add ios
-   
-###Building for Ios  
-
-    $ionic build ios
