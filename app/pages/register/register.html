@@ -23,6 +23,10 @@
     <ion-label primary>密码</ion-label>
     <ion-input placeholder="输入4位数密码" [(ngModel)]="register.Rpassword"></ion-input>
   </ion-item>
+   <ion-item>
+      <ion-label primary>生日</ion-label>
+      <ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="YYYY年MM月DD日" [(ngModel)]="register.birthDay"></ion-datetime>
+</ion-item>
   </ion-list>
   <button block (click)="registering()">点击注册</button>
 </ion-content>

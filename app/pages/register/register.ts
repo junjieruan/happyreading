@@ -12,7 +12,8 @@ export class Register {
   public register={
       Rusername:"",
       Rpassword:"",
-      Rheadface:"images/c1.jpg"
+      Rheadface:"images/c1.jpg",
+      birthDay: "1990-01-10"
   }
 
   constructor(private navCtrl: NavController,private viewCtrl:ViewController) {
