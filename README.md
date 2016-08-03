@@ -40,3 +40,17 @@ If ionic start happen error,cd into the directory ang Install the cnpm:
 
 ##Show Case
 ![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/page2.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/menu.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/addbook.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/bookdetail.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/friend.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/usercenter.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/contact.jpg)  
+
+![](https://github.com/junjieruan/happyreading/blob/master/Show%20Case/register.jpg)  
