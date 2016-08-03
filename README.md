@@ -40,5 +40,5 @@ If ionic start happen error,cd into the directory ang Install the cnpm:
 
 ##Show Case
 
-    ![](https://github.com/junjieruan/happyreading/tree/master/Show Case/page2.jpg)  
+    ![](https://github.com/junjieruan/happyreading/raw/master/Show Case/page2.jpg)  
 
