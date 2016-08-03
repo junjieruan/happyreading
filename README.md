@@ -39,3 +39,6 @@ If ionic start happen error,cd into the directory ang Install the cnpm:
     $ionic build android/ios
 
 ##Show Case
+
+    ![](https://github.com/junjieruan/happyreading/tree/master/Show Case/page2.jpg)  
+
