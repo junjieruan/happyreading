@@ -30,7 +30,7 @@ If ionic start happen error,cd into the directory ang Install the cnpm:
     $ ionic serve  
 
  
-###Building a platform for android/ios
+###Building platform for android/ios
 
     $ionic platform add android/ios
    
@@ -38,3 +38,4 @@ If ionic start happen error,cd into the directory ang Install the cnpm:
 
     $ionic build android/ios
 
+##Show Case
